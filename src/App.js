@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
-import './App.sass'
+import ItemCategory from './ItemCategory.js'
+import itemData from './data/ana-items.json'
 
 class App extends Component {
   render() {
     return pug`
-      div.App
-        header.App-header
-          img.App-logo(src=logo alt="logo")
-          h1.App-title Welcome to React
-        p.App-intro
-          | To get started, edit #[code src/App.js] and save to reload.
+      h1 Ana
+      ItemCategory(category='Skins' items=itemData.skins)
+      ItemCategory(category='Emotes' items=itemData.emotes)
+      ItemCategory(category='Victory Poses' items=itemData.poses)
+      ItemCategory(category='Voice Lines' items=itemData.voicelines)
+      ItemCategory(category='Sprays' items=itemData.sprays)
+      ItemCategory(category='Highlight Intros' items=itemData.intros)
     `
   }
 }

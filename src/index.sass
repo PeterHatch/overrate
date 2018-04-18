@@ -1,4 +1,101 @@
+html
+  background: #335
+
 body
-  margin: 0
-  padding: 0
   font-family: sans-serif
+  font-weight: bold
+  background: #222
+  color: white
+  line-height: 1
+  max-width: 25rem
+  margin: auto
+  min-height: 100vh
+
+h1
+  margin: 0 1rem
+  padding: 1rem 0
+  text-align: center
+
+h2, .items-container
+  margin: 0 1rem
+
+h2
+  font-size: 1.2em
+  text-transform: uppercase
+  margin-bottom: 0.5rem
+
+.items-container
+  padding-bottom: 1em
+  display: grid
+  grid-template-columns: [start favorite-start] auto [favorite-end have-start] auto [have-end name-start] 1fr [name-end cost-start] auto [cost-end end]
+  grid-auto-rows: minmax(1.375em, auto)
+  grid-row-gap: 0.25em
+  grid-column-gap: 0.5em
+  justify-items: start
+  align-items: center
+  justify-content: start
+  align-content: start
+
+.favorite
+  grid-column: favorite-start / favorite-end
+
+.favorite input
+  display: none
+
+.favorite-icon
+  height: 1.125em
+  vertical-align: top
+  stroke-width: 1em
+  stroke: gray
+  fill: none
+
+.favorite-icon:hover
+  stroke: red
+
+.favorite input:checked + .favorite-icon
+  fill: #800
+
+.have
+  grid-column: have-start / have-end
+
+.have > input
+  width: 1em
+  height: 1em
+
+.name
+  grid-column: name-start / name-end
+  vertical-align: bottom
+
+.common
+  color: white
+
+.rare
+  color: #00c1fa
+
+.epic
+  color: #ff05f4
+
+.legendary
+  color: #ffa12b
+
+.event-icon
+  height: 1.125em
+  vertical-align: top
+  fill: white
+
+.cost
+  grid-column: cost-start / cost-end
+  color: #f9931e
+  fill: #f9931e
+  justify-self: end
+  white-space: nowrap
+  font-size: 0.875em
+
+.currently-unavailable
+  color: #666
+  fill: #666
+
+.cost-icon
+  height: 1em
+  margin-right: 0.25em
+  vertical-align: top
