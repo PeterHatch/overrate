@@ -1,11 +1,13 @@
 import React from 'react'
 import icons from './icons.svg'
+import Rating from './Rating.js'
 import Favorite from './Favorite.js'
 import Have from './Have.js'
 import Cost from './Cost.js'
 
 function Item(props) {
   return pug`
+    Rating
     Favorite
     Have(standardItem=props.standardItem)
     .name(class=props.quality)
