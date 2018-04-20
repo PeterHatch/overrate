@@ -16,93 +16,31 @@ h1
   padding: 1rem 0
   text-align: center
 
-h2, .items-container
-  margin: 0 1rem
-
-h2
-  font-size: 1.2em
-  text-transform: uppercase
-  margin-bottom: 0.5rem
-
-.items-container
-  padding-bottom: 1em
-  display: grid
-  grid-template-columns: [start rating-start] auto [rating-end favorite-start] auto [favorite-end have-start] auto [have-end name-start] 1fr [name-end cost-start] auto [cost-end end]
-  grid-auto-rows: minmax(1.375em, auto)
-  grid-row-gap: 0.25em
-  grid-column-gap: 0.5em
-  justify-items: start
-  align-items: center
-  justify-content: start
-  align-content: start
-
-fieldset
-  border: none
-  margin: 0
-  padding: 0
-
-.rating
-  grid-column: rating-start / rating-end
-
-.favorite
-  grid-column: favorite-start / favorite-end
-
-.favorite input, .rating input
-  display: none
-
-.favorite-icon, .rating-icon
+.status-icon
   height: 1.125em
   vertical-align: top
-  stroke-width: 1em
-  stroke: gray
+
+.unrated
+  stroke: white
   fill: none
 
-.rating-icon
-  stroke-width: 0.006em
+.rated1
+  fill: #aaa
 
-.favorite-icon:hover
-  stroke: red
+.rated2
+  fill: white
 
-.rating-icon:hover
-  stroke: #fddc34
+.rated3
+  fill: #00c1fa
 
-.favorite input:checked + .favorite-icon
-  fill: #800
+.rated4
+  fill: #ff05f4
 
-.rating input:checked + .rating-icon
-  fill: #fddc34
-  stroke: #fddc34
-
-.rating input:checked + .rating-icon:hover
-  stroke: white
-
-.have
-  grid-column: have-start / have-end
-
-.have > input
-  width: 1em
-  height: 1em
-
-.name
-  grid-column: name-start / name-end
-  vertical-align: bottom
-
-.common
-  color: white
-
-.rare
-  color: #00c1fa
-
-.epic
-  color: #ff05f4
-
-.legendary
-  color: #ffa12b
+.rated5
+  fill: #ffa12b
 
 .event-icon
-  height: 1.125em
-  vertical-align: top
-  fill: white
+  grid-column: event-start / event-end
 
 .cost
   grid-column: cost-start / cost-end

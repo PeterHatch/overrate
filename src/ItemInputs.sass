@@ -1,0 +1,61 @@
+.edit
+  grid-column: edit-start / edit-end
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  justify-self: stretch
+  min-width: 6.25em // enough for the five stars in rating element
+
+.favorite
+  margin-right: 0.375em
+  margin-left: 0.5em
+
+.rating label
+  margin-left: 0.125em
+
+.rating, .favorite, .have
+  vertical-align: top
+
+fieldset.rating
+  border: none
+  margin: 0
+  padding: 0
+
+// Not on the fieldset due to Chrome bug - https://bugs.chromium.org/p/chromium/issues/detail?id=375693
+.rating-flex
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: end
+  align-items: center
+
+.have input, .favorite input, .rating input
+  display: none
+
+.have-icon, .favorite-icon, .rating-icon
+  height: 1.125em
+  vertical-align: top
+  stroke-width: 1em
+  stroke: gray
+  fill: none
+
+.favorite-icon:hover
+  stroke: red
+
+.rating-icon:hover
+  stroke: #fddc34
+
+.favorite input:checked + .favorite-icon
+  fill: #800
+
+.rating input:checked + .rating-icon
+  fill: #fddc34
+  stroke: #fddc34
+
+.rating input:checked + .rating-icon:hover
+  stroke: white
+
+.have > input
+  width: 1em
+  height: 1em
+

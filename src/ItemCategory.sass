@@ -1,0 +1,21 @@
+h2, .items-container
+  margin: 0 1rem
+
+h2
+  font-size: 1.2em
+  text-transform: uppercase
+  text-align: center
+  margin-bottom: 0.5rem
+
+.items-container
+  padding-bottom: 1em
+  display: grid
+  // grid-template-columns: [start status-start] auto [status-end event-start] auto [event-end name-start] 1fr [name-end cost-start] auto [cost-end end]
+  grid-template-columns: [start name-start] 1fr [name-end edit-start] 10em [edit-end end]
+  // grid-auto-rows: minmax(2em, auto) auto
+  grid-auto-rows: minmax(1.375em, auto)
+  grid-column-gap: 0.5em
+  justify-items: start
+  align-items: center
+  justify-content: start
+  align-content: start
