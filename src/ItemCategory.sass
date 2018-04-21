@@ -1,4 +1,4 @@
-h2, .items-container
+h2
   margin: 0 1rem
 
 h2
@@ -10,12 +10,18 @@ h2
 .items-container
   padding-bottom: 1em
   display: grid
-  // grid-template-columns: [start status-start] auto [status-end event-start] auto [event-end name-start] 1fr [name-end cost-start] auto [cost-end end]
-  grid-template-columns: [start name-start] 1fr [name-end edit-start] 10em [edit-end end]
-  // grid-auto-rows: minmax(2em, auto) auto
-  grid-auto-rows: minmax(1.375em, auto)
-  grid-column-gap: 0.5em
-  justify-items: start
-  align-items: center
+  grid-template-columns: 1fr auto
+  grid-auto-rows: minmax(2em, auto)
+  justify-items: stretch
+  align-items: stretch
   justify-content: start
   align-content: start
+
+.center-wrapper
+  display: flex
+  flex-direction: column
+  justify-content: center
+  padding: 0.25em 0
+
+.items-container > div:nth-child(4n+3), .items-container > div:nth-child(4n)
+  background: #2e2e2e
