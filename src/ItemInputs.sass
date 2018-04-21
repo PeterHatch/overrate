@@ -1,8 +1,3 @@
-.center-wrapper
-  display: flex
-  flex-direction: column
-  justify-content: center
-
 .edit
   justify-self: stretch
   display: flex
@@ -25,17 +20,11 @@
 .favorite
   margin-left: 0.5em
 
-fieldset.rating
-  border: none
-  margin: 0
-  padding: 0
+.rating
   margin-right: 1em
   margin-left: 0.375em
-
-// Not on the fieldset due to Chrome bug - https://bugs.chromium.org/p/chromium/issues/detail?id=375693
-.rating-flex
   display: flex
-  flex-direction: row
+  flex-direction: row-reverse
   flex-wrap: nowrap
   justify-content: end
   align-items: center
@@ -43,18 +32,33 @@ fieldset.rating
 .rating label
   margin-left: 0.125em
 
-.favorite-icon:hover
-  stroke: red
+.have input:checked + .have-icon
+  fill: #080
+  stroke: none
 
-.rating-icon:hover
-  stroke: #fddc34
+.have-icon:hover
+  stroke: #0f0
+
+.have input:disabled + .have-icon
+  fill: #888
+  stroke: none
 
 .favorite input:checked + .favorite-icon
   fill: #800
+  stroke: none
 
-.rating input:checked + .rating-icon
+.favorite-icon:hover
+  stroke: red
+
+.rating input:checked ~ label > .rating-icon
   fill: #fddc34
-  stroke: #fddc34
+  stroke: none
 
-.rating input:checked + .rating-icon:hover
+.rating label:hover > .rating-icon,
+.rating label:hover ~ label > .rating-icon
+  stroke: #ff4
+
+.have input:checked:not(:disabled) + .have-icon:hover,
+.favorite input:checked + .favorite-icon:hover,
+.rating input:checked ~ label:hover > .rating-icon
   stroke: white

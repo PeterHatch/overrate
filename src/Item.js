@@ -13,7 +13,7 @@ function Item(props) {
             use(xlinkHref=(icons + "#" + props.event))
           | 
         | #{props.name}
-    ItemInputs
+    ItemInputs(id=props.id standardItem=props.standardItem)
   `
 }
 

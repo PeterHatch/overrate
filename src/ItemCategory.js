@@ -16,7 +16,7 @@ function ItemCategory(props) {
     h2 #{props.category}
     .items-container
       each item in props.items
-        Item(key=item.id name=item.name quality=item.quality standardItem=item.standardItem event=eventTranslation[item.event] isNew=item.isNew)
+        Item(key=item.id name=item.name quality=item.quality standardItem=item.standardItem event=eventTranslation[item.event] isNew=item.isNew id=item.id)
   `
 }
 
