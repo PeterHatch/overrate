@@ -1,33 +1,8 @@
 .edit
-  grid-column: edit-start / edit-end
+  justify-self: stretch
   display: flex
   flex-wrap: wrap
-  justify-content: space-between
-  justify-self: stretch
-  min-width: 6.25em // enough for the five stars in rating element
-
-.favorite
-  margin-right: 0.375em
-  margin-left: 0.5em
-
-.rating label
-  margin-left: 0.125em
-
-.rating, .favorite, .have
-  vertical-align: top
-
-fieldset.rating
-  border: none
-  margin: 0
-  padding: 0
-
-// Not on the fieldset due to Chrome bug - https://bugs.chromium.org/p/chromium/issues/detail?id=375693
-.rating-flex
-  display: flex
-  flex-direction: row
-  flex-wrap: nowrap
-  justify-content: end
-  align-items: center
+  justify-content: start
 
 .have input, .favorite input, .rating input
   display: none
@@ -38,6 +13,30 @@ fieldset.rating
   stroke-width: 1em
   stroke: gray
   fill: none
+
+.have
+  margin-left: 0.5em
+
+.favorite
+  margin-left: 0.5em
+
+fieldset.rating
+  border: none
+  margin: 0
+  padding: 0
+  margin-right: 1em
+  margin-left: 0.375em
+
+// Not on the fieldset due to Chrome bug - https://bugs.chromium.org/p/chromium/issues/detail?id=375693
+.rating-flex
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: end
+  align-items: center
+
+.rating label
+  margin-left: 0.125em
 
 .favorite-icon:hover
   stroke: red
@@ -54,8 +53,3 @@ fieldset.rating
 
 .rating input:checked + .rating-icon:hover
   stroke: white
-
-.have > input
-  width: 1em
-  height: 1em
-
