@@ -8,7 +8,7 @@ function Item(props) {
   const newItem = ((props.event && props.event === currentEvent && props.isNew) ? 'new-item' : '')
   return pug`
     // Status(have=have, favorite=favorite, rating=rating)
-    .center-wrapper
+    .item-wrapper
       .name(class=props.quality)
         if props.event
           svg.event-icon(class=newItem viewBox="0 0 1 1")

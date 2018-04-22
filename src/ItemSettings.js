@@ -64,8 +64,8 @@ class ItemSettings extends React.Component {
 
   render() {
     return pug`
-      .center-wrapper
-        .edit
+      .item-wrapper
+        .settings
           .have
             label
               input(type="checkbox" checked=this.state.have disabled=this.props.standardItem onChange=this.toggleStateFunc({have: true}))
