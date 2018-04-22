@@ -1,7 +1,7 @@
 import React from 'react'
 import icons from './icons.svg'
 import currentEvent from './data/current-event.json'
-import ItemInputs from './ItemInputs.js'
+import ItemSettings from './ItemSettings.js'
 import './Item.sass'
 
 function Item(props) {
@@ -15,7 +15,7 @@ function Item(props) {
             use(xlinkHref=(icons + "#" + props.event))
           | 
         | #{props.name}
-    ItemInputs(id=props.id standardItem=props.standardItem)
+    ItemSettings(id=props.id standardItem=props.standardItem)
   `
 }
 

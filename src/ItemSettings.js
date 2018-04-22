@@ -1,8 +1,8 @@
 import React from 'react'
 import icons from './icons.svg'
-import './ItemInputs.sass'
+import './ItemSettings.sass'
 
-class ItemInputs extends React.Component {
+class ItemSettings extends React.Component {
   constructor(props) {
     super(props)
     this.state = this.loadStateFromLocalStorage()
@@ -101,4 +101,4 @@ class ItemInputs extends React.Component {
   }
 }
 
-export default ItemInputs
+export default ItemSettings
