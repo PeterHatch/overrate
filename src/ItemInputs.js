@@ -33,16 +33,17 @@ class ItemInputs extends React.Component {
     const charValue = window.localStorage.getItem(this.props.id)
     if (charValue) {
       let value = charValue.charCodeAt(0) - 0x20
-      let state = {}
-      state.favorite = (value >= 12)
-      value -= 12
-      state.have = (value >= 6)
-      value -= 6
+      let state = {have: false, favorite: false, rating: false}
+      if (value >= 12) {
+        state.favorite = true
+        value -= 12
+      }
+      if (value >= 6) {
+        state.have = true
+        value -= 6
+      }
       if (value > 0) {
         state.rating = value
-      }
-      else {
-        state.rating = false
       }
       return state
     }
@@ -62,39 +63,37 @@ class ItemInputs extends React.Component {
   }
 
   render() {
-    let name = this.props.id + "-rate"
-
     return pug`
       .center-wrapper
         .edit
           .have
             label
-              input(type="checkbox" checked=this.state.have disabled=this.props.standardItem onClick=this.toggleStateFunc({have: true}))
+              input(type="checkbox" checked=this.state.have disabled=this.props.standardItem onChange=this.toggleStateFunc({have: true}))
               svg.have-icon(viewBox="0 0 1 1")
                 use(xlinkHref=(icons + "#checkmark"))
           .favorite
             label
-              input(type="checkbox" checked=this.state.favorite onClick=this.toggleStateFunc({favorite: true}))
+              input(type="checkbox" checked=this.state.favorite onChange=this.toggleStateFunc({favorite: true}))
               svg.favorite-icon(viewBox="0 0 1 1")
                 use(xlinkHref=(icons + "#heart"))
           .rating
-            input(id=this.props.id + "-rate-5" type="radio" name=name value="5" checked=this.state.rating === 5 onClick=this.toggleStateFunc({rating: 5}))
+            input(id=this.props.id + "-rate-5" type="checkbox" value="5" checked=this.state.rating === 5 onChange=this.toggleStateFunc({rating: 5}))
             label(for=this.props.id + "-rate-5")
               svg.rating-icon(viewBox="0 0 1 1")
                 use(xlinkHref=(icons + "#star"))
-            input(id=this.props.id + "-rate-4" type="radio" name=name value="4" checked=this.state.rating === 4 onClick=this.toggleStateFunc({rating: 4}))
+            input(id=this.props.id + "-rate-4" type="checkbox" value="4" checked=this.state.rating === 4 onChange=this.toggleStateFunc({rating: 4}))
             label(for=this.props.id + "-rate-4")
               svg.rating-icon(viewBox="0 0 1 1")
                 use(xlinkHref=(icons + "#star"))
-            input(id=this.props.id + "-rate-3" type="radio" name=name value="3" checked=this.state.rating === 3 onClick=this.toggleStateFunc({rating: 3}))
+            input(id=this.props.id + "-rate-3" type="checkbox" value="3" checked=this.state.rating === 3 onChange=this.toggleStateFunc({rating: 3}))
             label(for=this.props.id + "-rate-3")
               svg.rating-icon(viewBox="0 0 1 1")
                 use(xlinkHref=(icons + "#star"))
-            input(id=this.props.id + "-rate-2" type="radio" name=name value="2" checked=this.state.rating === 2 onClick=this.toggleStateFunc({rating: 2}))
+            input(id=this.props.id + "-rate-2" type="checkbox" value="2" checked=this.state.rating === 2 onChange=this.toggleStateFunc({rating: 2}))
             label(for=this.props.id + "-rate-2")
               svg.rating-icon(viewBox="0 0 1 1")
                 use(xlinkHref=(icons + "#star"))
-            input(id=this.props.id + "-rate-1" type="radio" name=name value="1" checked=this.state.rating === 1 onClick=this.toggleStateFunc({rating: 1}))
+            input(id=this.props.id + "-rate-1" type="checkbox" value="1" checked=this.state.rating === 1 onChange=this.toggleStateFunc({rating: 1}))
             label(for=this.props.id + "-rate-1")
               svg.rating-icon(viewBox="0 0 1 1")
                 use(xlinkHref=(icons + "#star"))
