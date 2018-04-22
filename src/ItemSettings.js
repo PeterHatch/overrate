@@ -32,7 +32,7 @@ class ItemSettings extends React.Component {
   loadStateFromLocalStorage() {
     const charValue = window.localStorage.getItem(this.props.id)
     if (charValue) {
-      let value = charValue.charCodeAt(0) - 0x20
+      let value = charValue.charCodeAt(0) - 0x41
       let state = {have: false, favorite: false, rating: false}
       if (value >= 12) {
         state.favorite = true
@@ -58,7 +58,7 @@ class ItemSettings extends React.Component {
     if (this.state.favorite) {
       value += 12
     }
-    const charValue = String.fromCharCode(value + 0x20)
+    const charValue = String.fromCharCode(value + 0x41)
     window.localStorage.setItem(this.props.id, charValue)
   }
 
