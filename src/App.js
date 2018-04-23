@@ -1,17 +1,19 @@
 import React, { Component } from 'react'
 import ItemCategory from './ItemCategory.js'
-import itemData from './data/ana-items.json'
+import groupData from './data/groups.json'
 
 class App extends Component {
   render() {
+      let heroGroups = groupData.heroes.Ana
+
     return pug`
       h1 Ana
-      ItemCategory(category='Skins' items=itemData.skins)
-      ItemCategory(category='Emotes' items=itemData.emotes)
-      ItemCategory(category='Victory Poses' items=itemData.poses)
-      ItemCategory(category='Voice Lines' items=itemData.voicelines)
-      ItemCategory(category='Sprays' items=itemData.sprays)
-      ItemCategory(category='Highlight Intros' items=itemData.intros)
+      ItemCategory(category='Skins' itemIds=heroGroups.skins)
+      ItemCategory(category='Emotes' itemIds=heroGroups.emotes)
+      ItemCategory(category='Victory Poses' itemIds=heroGroups.poses)
+      ItemCategory(category='Voice Lines' itemIds=heroGroups['voice-lines'])
+      ItemCategory(category='Sprays' itemIds=heroGroups.sprays)
+      ItemCategory(category='Highlight Intros' itemIds=heroGroups['highlight-intros'])
     `
   }
 }

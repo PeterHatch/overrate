@@ -68,7 +68,7 @@ class ItemSettings extends React.Component {
         .settings
           .have
             label
-              input(type="checkbox" checked=this.state.have disabled=this.props.standardItem onChange=this.toggleStateFunc({have: true}))
+              input(type="checkbox" checked=this.state.have disabled=this.props.everyoneHas onChange=this.toggleStateFunc({have: true}))
               svg.have-icon(viewBox="0 0 1 1")
                 use(xlinkHref=(icons + "#checkmark"))
           .favorite
