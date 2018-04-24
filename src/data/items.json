@@ -4,14 +4,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Recover 400 health using Tracer's Recall without dying in Quick or Competitive Play."
   },
   "15E": {
     "hero": "Tracer",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Stick 4 of Tracer's Pulse Bombs onto enemies in a single Quick or Competitive Play game."
   },
   "3D0": {
     "hero": "Tracer",
@@ -936,14 +938,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Hit an enemy with 6 beams simultaneously as Symmetra in Quick or Competitive Play."
   },
   "826": {
     "hero": "Symmetra",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Teleport 20 players in a single Quick or Competitive Play game as Symmetra."
   },
   "3CF": {
     "hero": "Symmetra",
@@ -1822,14 +1826,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Interrupt an enemy ultimate ability with Roadhog's Hook in Quick or Competitive Play."
   },
   "795": {
     "hero": "Roadhog",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Knock 2 enemies to their deaths with one use of Roadhog's Whole Hog in Quick or Competitive Play."
   },
   "3CA": {
     "hero": "Roadhog",
@@ -2733,14 +2739,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Knock an enemy to their death using Pharah's Concussive Blast in Quick or Competitive Play."
   },
   "7C1": {
     "hero": "Pharah",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies in a row without touching the ground as Pharah in Quick or Competitive Play."
   },
   "3CB": {
     "hero": "Pharah",
@@ -3612,14 +3620,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Block 8000 damage with Reinhardt's Barrier Field without dying in Quick or Competitive Play."
   },
   "6EF": {
     "hero": "Reinhardt",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Land Reinhardt's Fire Strike and Charge after an Earthshatter stun in Quick or Competitive Play."
   },
   "3C7": {
     "hero": "Reinhardt",
@@ -4504,14 +4514,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 2 enemies with a single use of Genji's Deflection in Quick or Competitive Play."
   },
   "73F": {
     "hero": "Genji",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies with a single use of Genji's Dragonblade in Quick or Competitive Play."
   },
   "3CE": {
     "hero": "Genji",
@@ -5395,14 +5407,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get 2 killing blows with a single use of Soldier: 76's Helix Rockets in Quick or Competitive Play."
   },
   "2C4": {
     "hero": "Soldier: 76",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies with a single use of Soldier: 76's Tactical Visor in Quick or Competitive Play."
   },
   "3CC": {
     "hero": "Soldier: 76",
@@ -6275,14 +6289,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 2 enemies in each of Bastion's configurations without dying in Quick or Competitive Play."
   },
   "618": {
     "hero": "Bastion",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies with a single use of Bastion's Configuration: Tank in Quick or Competitive Play."
   },
   "3C5": {
     "hero": "Bastion",
@@ -7179,14 +7195,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Hack 15 enemies without dying as Sombra in Quick or Competitive Play."
   },
   "CC9": {
     "hero": "Sombra",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Hack 6 enemies at once as Sombra in Quick or Competitive Play."
   },
   "AF1": {
     "hero": "Sombra",
@@ -8081,14 +8099,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Restore 200 health for 5 players without dying as Mercy in Quick or Competitive Play."
   },
   "51F": {
     "hero": "Mercy",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Resurrect 6 players without dying as Mercy in Quick or Competitive Play."
   },
   "3BD": {
     "hero": "Mercy",
@@ -8986,14 +9006,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Interrupt an enemy ultimate ability with Ana's Sleep Dart in Quick or Competitive Play."
   },
   "AB9": {
     "hero": "Ana",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get 4 kills or assists with a single use of Ana's Nano Boost in Quick or Competitive Play."
   },
   "A68": {
     "hero": "Ana",
@@ -9878,14 +9900,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Knock an enemy into your Steel Trap using Junkrat's Concussion Mine in Quick or Competitive Play."
   },
   "5C2": {
     "hero": "Junkrat",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies with a single use of Junkrat's RIP-Tire in Quick or Competitive Play."
   },
   "3C1": {
     "hero": "Junkrat",
@@ -10780,14 +10804,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Interrupt an enemy ultimate ability with McCree's Flashbang in Quick or Competitive Play."
   },
   "1B9": {
     "hero": "McCree",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get 4 killing blows with a single use of McCree's Deadeye in Quick or Competitive Play."
   },
   "3BF": {
     "hero": "McCree",
@@ -11684,14 +11710,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies using Widowmaker's Venom Mine during a single Quick or Competitive Play game."
   },
   "695": {
     "hero": "Widowmaker",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill an enemy with a scoped headshot while airborne as Widowmaker in Quick or Competitive Play."
   },
   "3D1": {
     "hero": "Widowmaker",
@@ -12594,14 +12622,16 @@
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Hit 6 enemies with a single use of Doomfist's Meteor Strike in Quick or Competitive Play."
   },
   "11CB": {
     "hero": "Doomfist",
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get a killing blow with Doomfist's full-power Seismic Slam in Quick or Competitive Play."
   },
   "13D9": {
     "hero": "Doomfist",
@@ -13395,14 +13425,16 @@
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Hit 7 targets simultaneously with Moira's Coalescence in Quick or Competitive Play."
   },
   "1309": {
     "hero": "Moira",
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Fully deplete both types of Moira's Biotic Orb without dying in Quick or Competitive Play."
   },
   "13DC": {
     "hero": "Moira",
@@ -14133,14 +14165,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get 2 killing blows with a single use of Hanzo's Scatter Arrow in Quick or Competitive Play."
   },
   "542": {
     "hero": "Hanzo",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies with one of Hanzo's Spirit Dragons in Quick or Competitive Play."
   },
   "3BE": {
     "hero": "Hanzo",
@@ -15018,14 +15052,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Prevent 1500 damage with a single use of D.va's Defense Matrix in Quick or Competitive Play."
   },
   "677": {
     "hero": "D.Va",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies with a single use of D.va's Self Destruct in Quick or Competitive Play."
   },
   "3C3": {
     "hero": "D.Va",
@@ -15914,14 +15950,16 @@
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill an airborne enemy with Brigitte's Whip Shot in Quick or Competitive Play."
   },
   "16F4": {
     "hero": "Brigitte",
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Interrupt an enemy ultimate ability with Brigitte's Shield Bash in Quick or Competitive Play."
   },
   "1740": {
     "hero": "Brigitte",
@@ -16557,14 +16595,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Pull enemies into 1000 damage with a single use of Orisa's Halt! in Quick or Competitive Play."
   },
   "1010": {
     "hero": "Orisa",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Amplify 900 damage with a single use of Orisa's Supercharger in Quick or Competitive Play."
   },
   "F6A": {
     "hero": "Orisa",
@@ -17406,14 +17446,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Keep Zarya's particle cannon above 70 power for 60 seconds in Quick or Competitive Play."
   },
   "719": {
     "hero": "Zarya",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Capture 5 enemies in a single use of Zarya's Graviton Surge in Quick or Competitive Play."
   },
   "3C8": {
     "hero": "Zarya",
@@ -18306,14 +18348,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Destroy 10 turrets or traps using Winston's Tesla Cannon without dying in Quick or Competitive Play."
   },
   "86C": {
     "hero": "Winston",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Damage 6 enemies during a single use of Winston's Primal Rage in Quick or Competitive Play."
   },
   "3CD": {
     "hero": "Winston",
@@ -19199,14 +19243,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get 4 kills or assists with Zenyatta's Orb of Discord within 6 seconds in Quick or Competitive Play."
   },
   "597": {
     "hero": "Zenyatta",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Restore 1500 health with a single use of Zenyatta's Transcendence in Quick or Competitive Play."
   },
   "3C0": {
     "hero": "Zenyatta",
@@ -20088,14 +20134,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Have one of Torbjörn's Armor Packs on 5 allies at the same time in Quick or Competitive Play."
   },
   "6BE": {
     "hero": "Torbjörn",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies during a single use of Torbjörn's Molten Core in Quick or Competitive Play."
   },
   "3C6": {
     "hero": "Torbjörn",
@@ -21004,14 +21052,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get 3 solo kills with a single clip of Reaper's shotguns in Quick or Competitive Play."
   },
   "760": {
     "hero": "Reaper",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies with a single use of Reaper's Death Blossom in Quick or Competitive Play."
   },
   "3C9": {
     "hero": "Reaper",
@@ -21917,14 +21967,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get 3 killing blows while wall riding as Lúcio without dying in Quick or Competitive Play."
   },
   "5ED": {
     "hero": "Lúcio",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Block 1000 damage with a single use of Lúcio's Sound Barrier in Quick or Competitive Play."
   },
   "3C2": {
     "hero": "Lúcio",
@@ -22804,14 +22856,16 @@
     "name": "Pixel",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Block 1200 damage with a single use of Mei's Ice Wall in Quick or Competitive Play."
   },
   "643": {
     "hero": "Mei",
     "name": "Cute",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Freeze 4 enemies at once with Mei in Quick or Competitive Play."
   },
   "3C4": {
     "hero": "Mei",
@@ -23724,103 +23778,120 @@
     "name": "Jail",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win a Capture map on defense without losing the first objective in Quick or Competitive Play."
   },
   "1E1": {
     "name": "Beyond the Moon",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Capture both objectives on a Capture map without dying in Quick or Competitive Play."
   },
   "8DE": {
     "name": "Red O",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win a Control map without the enemy capturing an objective in Quick or Competitive Play."
   },
   "8DF": {
     "name": "Red X",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Prevent the attacking team from touching the payload for 1 minute in Quick or Competitive Play."
   },
   "870": {
     "name": "Out of My Way",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Push a payload 100 meters without leaving it in Quick or Competitive Play."
   },
   "1E2": {
     "name": "GL HF",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win a Quick or Competitive Play game on 12 different maps."
   },
   "1D6": {
     "name": "Forge Onward",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Reach level 10."
   },
   "1D2": {
     "name": "Rise",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Reach level 25."
   },
   "86E": {
     "name": "Respect",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Reach level 50."
   },
   "1E5": {
     "name": "Victory",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win 100 games in Quick or Competitive Play."
   },
   "1C4": {
     "name": "Tea Time",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Get a 20 player kill streak in Quick or Competitive Play."
   },
   "8E2": {
     "name": "Sorry",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Destroy 3 of Symmetra's Teleporters in a single Quick or Competitive Play game."
   },
   "1DD": {
     "name": "Piñata",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Use health packs to heal 900 health in a single life in Quick or Competitive Play."
   },
   "1D8": {
     "name": "Man and Omnic",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Play a Quick or Competitive Play game in a group with a friend."
   },
   "8E4": {
     "name": "Well Played",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Earn 50 postgame medals in Quick or Competitive Play."
   },
   "8E3": {
     "name": "Thanks",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Earn 21 postgame cards in Quick or Competitive Play."
   },
   "8E5": {
     "name": "Oops",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Collect 50 unlocks for a single hero."
   },
   "A90": {
     "name": "Top 500",
@@ -24237,19 +24308,25 @@
     "name": "Goal Blossom",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Score a goal, a save, and an assist in a game of Lúcioball.",
+    "group": "summer-games"
   },
   "120F": {
     "name": "Safe Hands",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Score 3 saves in a row in Lúcioball.",
+    "group": "summer-games"
   },
   "120E": {
     "name": "Bicycle Kick",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Score a goal in Lúcioball with a shot taken from at least 4 meters in the air.",
+    "group": "summer-games"
   },
   "1239": {
     "name": "Summer Games 2017",
@@ -24269,25 +24346,33 @@
     "name": "Junkenstein's Revenge",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Junkenstein's Revenge on Hard difficulty.",
+    "group": "halloween-terror"
   },
   "CAF": {
     "name": "Rise of the Zomnics",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Junkenstein's Revenge using each of the 4 heroes.",
+    "group": "halloween-terror"
   },
   "CB0": {
     "name": "The Reapening",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Junkenstein's Revenge on Hard difficulty with no damage to the door.",
+    "group": "halloween-terror"
   },
   "CAD": {
     "name": "Halloween Special",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Junkenstein's Revenge on Legendary difficulty.",
+    "group": "halloween-terror"
   },
   "12DB": {
     "name": "Halloween Terror 2017",
@@ -24300,25 +24385,33 @@
     "name": "My Creations",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Junkenstein Endless with 6 different heroes.",
+    "group": "halloween-terror"
   },
   "12E0": {
     "name": "The Monster",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Junkenstein Endless on Hard difficulty with no damage to the door.",
+    "group": "halloween-terror"
   },
   "12DD": {
     "name": "The Reaper",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Junkenstein's Revenge on Expert difficulty.",
+    "group": "halloween-terror"
   },
   "12E1": {
     "name": "The Witch",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Survive 4 bonus waves in Junkenstein Endless on Expert difficulty.",
+    "group": "halloween-terror"
   },
   "D0C": {
     "name": "Winter Wonderland 2016",
@@ -24331,37 +24424,49 @@
     "name": "Snowcree",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill an enemy with a snowball from 25 meters away in Mei's Snowball Offensive.",
+    "group": "winter-wonderland"
   },
   "D78": {
     "name": "Snowmei",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Mei's Snowball Offensive without losing a round.",
+    "group": "winter-wonderland"
   },
   "D7A": {
     "name": "Snowreaper",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 4 enemies without missing in Mei's Snowball Offensive.",
+    "group": "winter-wonderland"
   },
   "D79": {
     "name": "Snowhog",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Kill 3 enemies while they are picking up snow in a game of Mei's Snowball Offensive.",
+    "group": "winter-wonderland"
   },
   "13A3": {
     "name": "Yeti Hunter",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Trap the Yeti as a Hunter in Yeti Hunter.",
+    "group": "winter-wonderland"
   },
   "13A4": {
     "name": "Yeti",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Eat 4 meat as the Yeti in Yeti Hunter.",
+    "group": "winter-wonderland"
   },
   "13A0": {
     "name": "Winter Wonderland 2017",
@@ -24381,13 +24486,15 @@
     "name": "Awakened Lion",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Win Capture the Flag with a score of 3 to 0."
   },
   "F6C": {
     "name": "Auspicious Lion",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Recover a flag in a game of Capture the Flag."
   },
   "164F": {
     "name": "Year of the Dog 2018",
@@ -24400,37 +24507,49 @@
     "name": "Eradicator",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Uprising on Hard difficulty.",
+    "group": "archives"
   },
   "10AF": {
     "name": "Nulltrooper",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Uprising with each of the 4 heroes.",
+    "group": "archives"
   },
   "10B0": {
     "name": "B73-NS",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Uprising on Expert difficulty.",
+    "group": "archives"
   },
   "10B1": {
     "name": "Slicer",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Deliver the payload with over 80%% health in Uprising on Hard difficulty.",
+    "group": "archives"
   },
   "10B2": {
     "name": "Nullmari",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Uprising (All Heroes) with 8 different heroes.",
+    "group": "archives"
   },
   "10B3": {
     "name": "OR14-NS",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Uprising on Legendary difficulty.",
+    "group": "archives"
   },
   "10F2": {
     "name": "Uprising 2017",
@@ -24450,37 +24569,49 @@
     "name": "Talon Trooper",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Retribution with each of the 4 heroes.",
+    "group": "archives"
   },
   "18DE": {
     "name": "Talon Enforcer",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Retribution (All Heroes) with 8 different heroes.",
+    "group": "archives"
   },
   "18DF": {
     "name": "Talon Sniper",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Retribution on Hard difficulty.",
+    "group": "archives"
   },
   "18E0": {
     "name": "Talon Assassin",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Retribution on Expert difficulty with no incapacitations.",
+    "group": "archives"
   },
   "18E1": {
     "name": "Talon Heavy Assault",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Retribution on Legendary difficulty.",
+    "group": "archives"
   },
   "18E2": {
     "name": "Droppachi",
     "rarity": "common",
     "type": "spray",
-    "availability": "unknown"
+    "availability": "achievement",
+    "unlock-condition": "Complete Retribution on Expert difficulty.",
+    "group": "archives"
   },
   "113E": {
     "name": "Anniversary 2017",
