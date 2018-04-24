@@ -1,6 +1,6 @@
 require 'json'
 require_relative 'achievements'
-require_relative 'hero_unlocks'
+require_relative 'unlocks'
 require_relative 'group_items'
 
 items = process_unlocks
