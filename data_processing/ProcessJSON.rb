@@ -2,9 +2,11 @@ require 'json'
 require_relative 'achievements'
 require_relative 'unlocks'
 require_relative 'group_items'
+require_relative 'years'
 
 items = process_unlocks
 add_achievements_info(items)
+add_years(items)
 item_groups = group_items(items)
 
 IO.write('../src/data/items.json', JSON.pretty_generate(items))

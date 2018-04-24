@@ -8,13 +8,12 @@ import './Item.sass'
 function Item(props) {
   let item = items[props.id]
 
-  // FIXME: Make the data include which items are new again, and mark them.
-  // const newItem = ((props.event && props.event === currentEvent && props.isNew) ? 'new-item' : '')
-  const newItem = false
-
-  if (item.group == 'overwatch-league') {
+  // Skip Overwatch League items for now
+  if (item.group === 'overwatch-league') {
     return null
   }
+
+  const newItem = ((item.group && item.group === currentEvent.event && item.year === currentEvent.year) ? 'new-item' : '')
 
   return pug`
     .item-wrapper
