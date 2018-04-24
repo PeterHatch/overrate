@@ -23719,5 +23719,2108 @@
     "rarity": "legendary",
     "type": "skin",
     "group": "anniversary"
+  },
+  "1E0": {
+    "name": "Jail",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1E1": {
+    "name": "Beyond the Moon",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "8DE": {
+    "name": "Red O",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "8DF": {
+    "name": "Red X",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "870": {
+    "name": "Out of My Way",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1E2": {
+    "name": "GL HF",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1D6": {
+    "name": "Forge Onward",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1D2": {
+    "name": "Rise",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "86E": {
+    "name": "Respect",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1E5": {
+    "name": "Victory",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1C4": {
+    "name": "Tea Time",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "8E2": {
+    "name": "Sorry",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1DD": {
+    "name": "Piñata",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1D8": {
+    "name": "Man and Omnic",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "8E4": {
+    "name": "Well Played",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "8E3": {
+    "name": "Thanks",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "8E5": {
+    "name": "Oops",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "A90": {
+    "name": "Top 500",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "A92": {
+    "name": "Season 1 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "C0B": {
+    "name": "Season 2 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "C8C": {
+    "name": "Season 3 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "C8D": {
+    "name": "Season 4 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "105E": {
+    "name": "Season 5 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "11D8": {
+    "name": "Season 6 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "11DD": {
+    "name": "Season 7 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "138C": {
+    "name": "Season 8 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "1606": {
+    "name": "Season 9 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "160A": {
+    "name": "Season 10 Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "126F": {
+    "name": "Copa Lúcioball Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "169F": {
+    "name": "Competitive CTF Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Competitive Capture the Flag placement matches"
+  },
+  "1730": {
+    "name": "Competitive 6v6 Elimination Competitor",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Competitive 6v6 Elimination placement matches"
+  },
+  "A91": {
+    "name": "Season 1 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "C0C": {
+    "name": "Season 2 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "C8B": {
+    "name": "Season 3 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "C8E": {
+    "name": "Season 4 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "105F": {
+    "name": "Season 5 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "11D9": {
+    "name": "Season 6 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "11DE": {
+    "name": "Season 7 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "138D": {
+    "name": "Season 8 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "1607": {
+    "name": "Season 9 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "160F": {
+    "name": "Season 10 Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "1270": {
+    "name": "Copa Lúcioball Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "16A0": {
+    "name": "Competitive CTF Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Competitive Capture the Flag"
+  },
+  "1731": {
+    "name": "Competitive 6v6 Elimination Hero",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Competitive 6v6 Elimination"
+  },
+  "A8F": {
+    "name": "Season 1 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 1 placement matches"
+  },
+  "C0D": {
+    "name": "Season 2 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 2 placement matches"
+  },
+  "C8F": {
+    "name": "Season 3 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 3 placement matches"
+  },
+  "C90": {
+    "name": "Season 4 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 4 placement matches"
+  },
+  "105C": {
+    "name": "Season 5 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 5 placement matches"
+  },
+  "11DA": {
+    "name": "Season 6 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 6 placement matches"
+  },
+  "11DF": {
+    "name": "Season 7 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 7 placement matches"
+  },
+  "138E": {
+    "name": "Season 8 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 8 placement matches"
+  },
+  "1608": {
+    "name": "Season 9 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 9 placement matches"
+  },
+  "1614": {
+    "name": "Season 10 Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Season 10 placement matches"
+  },
+  "126D": {
+    "name": "Copa Lúcioball Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Copa Lúcioball placement matches"
+  },
+  "169D": {
+    "name": "Competitive CTF Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Competitive Capture the Flag placement matches"
+  },
+  "172E": {
+    "name": "Competitive 6v6 Elimination Competitor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by completing Competitive 6v6 Elimination placement matches"
+  },
+  "A85": {
+    "name": "Season 1 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking during Season 1"
+  },
+  "C0E": {
+    "name": "Season 2 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking during Season 2"
+  },
+  "CF3": {
+    "name": "Season 3 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking during Season 3"
+  },
+  "1018": {
+    "name": "Season 4 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking during Season 4"
+  },
+  "105D": {
+    "name": "Season 5 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Season 5"
+  },
+  "11DB": {
+    "name": "Season 6 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Season 6"
+  },
+  "11E0": {
+    "name": "Season 7 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Season 7"
+  },
+  "138F": {
+    "name": "Season 8 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Season 8"
+  },
+  "1609": {
+    "name": "Season 9 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Season 9"
+  },
+  "1615": {
+    "name": "Season 10 Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Season 10"
+  },
+  "126E": {
+    "name": "Copa Lúcioball Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Copa Lúcioball"
+  },
+  "169E": {
+    "name": "Competitive CTF Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Competitive Capture the Flag"
+  },
+  "172F": {
+    "name": "Competitive 6v6 Elimination Hero",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked by achieving top 500 ranking at the end of Competitive 6v6 Elimination"
+  },
+  "C22": {
+    "name": "Dark Wanderer",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked as part of the Diablo 20th Anniversary celebration"
+  },
+  "C0A": {
+    "name": "Wizard",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked as part of the Diablo 20th Anniversary celebration"
+  },
+  "C07": {
+    "name": "Witch Doctor",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked as part of the Diablo 20th Anniversary celebration"
+  },
+  "C09": {
+    "name": "Monk",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked as part of the Diablo 20th Anniversary celebration"
+  },
+  "C08": {
+    "name": "Demon Hunter",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked as part of the Diablo 20th Anniversary celebration"
+  },
+  "C06": {
+    "name": "Crusader",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked as part of the Diablo 20th Anniversary celebration"
+  },
+  "C05": {
+    "name": "Barbarian",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "unlock-condition": "Unlocked as part of the Diablo 20th Anniversary celebration"
+  },
+  "BC4": {
+    "name": "Summer Games 2016",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "summer-games"
+  },
+  "B9C": {
+    "name": "Summer Games 2016",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown",
+    "group": "summer-games"
+  },
+  "1210": {
+    "name": "Goal Blossom",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "120F": {
+    "name": "Safe Hands",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "120E": {
+    "name": "Bicycle Kick",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "1239": {
+    "name": "Summer Games 2017",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "summer-games"
+  },
+  "C39": {
+    "name": "Halloween Terror 2016",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "halloween-terror"
+  },
+  "CAB": {
+    "name": "Junkenstein's Revenge",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "CAF": {
+    "name": "Rise of the Zomnics",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "CB0": {
+    "name": "The Reapening",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "CAD": {
+    "name": "Halloween Special",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "12DB": {
+    "name": "Halloween Terror 2017",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "halloween-terror"
+  },
+  "12E2": {
+    "name": "My Creations",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "12E0": {
+    "name": "The Monster",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "12DD": {
+    "name": "The Reaper",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "12E1": {
+    "name": "The Witch",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "D0C": {
+    "name": "Winter Wonderland 2016",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "winter-wonderland"
+  },
+  "D7D": {
+    "name": "Snowcree",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "D78": {
+    "name": "Snowmei",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "D7A": {
+    "name": "Snowreaper",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "D79": {
+    "name": "Snowhog",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "13A3": {
+    "name": "Yeti Hunter",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "13A4": {
+    "name": "Yeti",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "13A0": {
+    "name": "Winter Wonderland 2017",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "winter-wonderland"
+  },
+  "D57": {
+    "name": "Year of the Rooster 2017",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "lunar-new-year"
+  },
+  "F6B": {
+    "name": "Awakened Lion",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "F6C": {
+    "name": "Auspicious Lion",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "164F": {
+    "name": "Year of the Dog 2018",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "lunar-new-year"
+  },
+  "10AE": {
+    "name": "Eradicator",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "10AF": {
+    "name": "Nulltrooper",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "10B0": {
+    "name": "B73-NS",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "10B1": {
+    "name": "Slicer",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "10B2": {
+    "name": "Nullmari",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "10B3": {
+    "name": "OR14-NS",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "10F2": {
+    "name": "Uprising 2017",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "archives"
+  },
+  "17A7": {
+    "name": "Archives 2018",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "archives"
+  },
+  "18DB": {
+    "name": "Talon Trooper",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "18DE": {
+    "name": "Talon Enforcer",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "18DF": {
+    "name": "Talon Sniper",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "18E0": {
+    "name": "Talon Assassin",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "18E1": {
+    "name": "Talon Heavy Assault",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "18E2": {
+    "name": "Droppachi",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "113E": {
+    "name": "Anniversary 2017",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown",
+    "group": "anniversary"
+  },
+  "1373": {
+    "name": "Kul Tiras",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "bonus",
+    "group": "bonus",
+    "unlock-condition": "Unlocked with purchase of World of Warcraft: Battle for Azeroth Collector's Edition or Digital Deluxe Edition"
+  },
+  "1374": {
+    "name": "Zandalar",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "bonus",
+    "group": "bonus",
+    "unlock-condition": "Unlocked with purchase of World of Warcraft: Battle for Azeroth Collector's Edition or Digital Deluxe Edition"
+  },
+  "1378": {
+    "name": "Anduin",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "bonus",
+    "group": "bonus",
+    "unlock-condition": "Unlocked with purchase of World of Warcraft: Battle for Azeroth Collector's Edition or Digital Deluxe Edition"
+  },
+  "1375": {
+    "name": "Jaina",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "bonus",
+    "group": "bonus",
+    "unlock-condition": "Unlocked with purchase of World of Warcraft: Battle for Azeroth Collector's Edition or Digital Deluxe Edition"
+  },
+  "1376": {
+    "name": "Varok",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "bonus",
+    "group": "bonus",
+    "unlock-condition": "Unlocked with purchase of World of Warcraft: Battle for Azeroth Collector's Edition or Digital Deluxe Edition"
+  },
+  "1377": {
+    "name": "Sylvanas",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "bonus",
+    "group": "bonus",
+    "unlock-condition": "Unlocked with purchase of World of Warcraft: Battle for Azeroth Collector's Edition or Digital Deluxe Edition"
+  },
+  "16AB": {
+    "name": "Inaugural Season",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unknown"
+  },
+  "16AC": {
+    "name": "Inaugural Season",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unknown"
+  },
+  "8D": {
+    "name": "Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "2F7": {
+    "name": "Overwatch Dark",
+    "rarity": "common",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "2F9": {
+    "name": "Overwatch Light",
+    "rarity": "common",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "B14": {
+    "name": "You are not prepared",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "B13": {
+    "name": "You are not prepared!",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "CEF": {
+    "name": "Día de los Muertos",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "15F0": {
+    "name": "Overwatch League",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1408": {
+    "name": "Boston Uprising",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1407": {
+    "name": "Dallas Fuel",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1406": {
+    "name": "Florida Mayhem",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1405": {
+    "name": "Houston Outlaws",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1404": {
+    "name": "London Spitfire",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1403": {
+    "name": "Los Angeles Gladiators",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1402": {
+    "name": "Los Angeles Valiant",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1401": {
+    "name": "New York Excelsior",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "1400": {
+    "name": "Philadelphia Fusion",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "13FF": {
+    "name": "San Francisco Shock",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "13FD": {
+    "name": "Seoul Dynasty",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "13FE": {
+    "name": "Shanghai Dragons",
+    "rarity": "rare",
+    "type": "player-icon",
+    "availability": "unlocked"
+  },
+  "15F1": {
+    "name": "Overwatch League",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13FB": {
+    "name": "Boston Uprising Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13F9": {
+    "name": "Dallas Fuel Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13F7": {
+    "name": "Florida Mayhem Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13F5": {
+    "name": "Houston Outlaws Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13F3": {
+    "name": "London Spitfire Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13F1": {
+    "name": "Los Angeles Gladiators Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13EF": {
+    "name": "Los Angeles Valiant Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13EC": {
+    "name": "New York Excelsior Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13EA": {
+    "name": "Philadelphia Fusion Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13E5": {
+    "name": "San Francisco Shock Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13E3": {
+    "name": "Seoul Dynasty Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "13E7": {
+    "name": "Shanghai Dragons Logo",
+    "rarity": "common",
+    "type": "spray",
+    "availability": "unlocked"
+  },
+  "1BF": {
+    "name": "Dark Logo",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C0": {
+    "name": "Overwatch",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C1": {
+    "name": "Dark Overwatch",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C2": {
+    "name": "Overwatch Title",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C3": {
+    "name": "Dark Title",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C5": {
+    "name": "Catcher",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C8": {
+    "name": "FotS2",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C9": {
+    "name": "Siege Mode",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1CA": {
+    "name": "Soulstone",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C7": {
+    "name": "Vivi's Adventure",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1D7": {
+    "name": "Caution",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1CC": {
+    "name": "Dance",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1DE": {
+    "name": "Goldshire Pictures",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1D0": {
+    "name": "Fuji",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1DB": {
+    "name": "Leek",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1DC": {
+    "name": "Lumérico",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1D5": {
+    "name": "Numbani Statue",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1D4": {
+    "name": "Omnic Rights",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1C6": {
+    "name": "Pachimari",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "90B": {
+    "name": "...Punch",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1DA": {
+    "name": "Rhino",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1D3": {
+    "name": "Rikimaru",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "871": {
+    "name": "Sarcophagus",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1D9": {
+    "name": "Scooter",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1DF": {
+    "name": "Scroll",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "1E4": {
+    "name": "Six-Gun Killer",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "86D": {
+    "name": "Sol",
+    "rarity": "common",
+    "type": "spray"
+  },
+  "9D9": {
+    "name": "Credit",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9DC": {
+    "name": "Training Bot",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E6": {
+    "name": "Loot Box",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8B8": {
+    "name": "Monk",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8B9": {
+    "name": "Lord of Terror",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9D3": {
+    "name": "Crusader",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9D4": {
+    "name": "Wizard",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9D5": {
+    "name": "Witch Doctor",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9D6": {
+    "name": "Barbarian",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9D7": {
+    "name": "Demon Hunter",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8BC": {
+    "name": "Hearthstone",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8BB": {
+    "name": "Nexus",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8C4": {
+    "name": "Terran",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8C5": {
+    "name": "Protoss",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8C6": {
+    "name": "Zerg",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8C7": {
+    "name": "Dominion",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8F2": {
+    "name": "Hierarch",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8F3": {
+    "name": "Jim",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8F4": {
+    "name": "Queen of Blades",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8BD": {
+    "name": "Jaina",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8BE": {
+    "name": "Lich King",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8BF": {
+    "name": "Varian",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8C0": {
+    "name": "Garrosh",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8C1": {
+    "name": "Dark Lady",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8C2": {
+    "name": "For the Alliance",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8C3": {
+    "name": "For the Horde",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8E6": {
+    "name": "Anubis",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9D8": {
+    "name": "Pharaoh",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8E7": {
+    "name": "Los Muertos",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9DA": {
+    "name": "Mariachi",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9DB": {
+    "name": "Lord of Candy",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9DD": {
+    "name": "Capsule",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9DE": {
+    "name": "Colossus",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8E8": {
+    "name": "Happy Squid",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8EA": {
+    "name": "Sakura",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8EB": {
+    "name": "16-Bit Hero",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8EC": {
+    "name": "Rikimaru",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8E9": {
+    "name": "Pachimari",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9DF": {
+    "name": "Ramen",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E0": {
+    "name": "Scooter",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E1": {
+    "name": "Siege Mode",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E2": {
+    "name": "Vivi",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8ED": {
+    "name": "From Beyond the Moon",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E3": {
+    "name": "Six-Gun Killer",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E4": {
+    "name": "Bao",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E5": {
+    "name": "Mama Pig's",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E7": {
+    "name": "Elephant",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8EE": {
+    "name": "Rhino",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8EF": {
+    "name": "Demolition",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E8": {
+    "name": "Kọfị Aromo",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9E9": {
+    "name": "Totem",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9EA": {
+    "name": "Route 66",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8F0": {
+    "name": "Svyatogor",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "8F1": {
+    "name": "Mech",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "9EB": {
+    "name": "Na Zdorovie",
+    "rarity": "rare",
+    "type": "player-icon"
+  },
+  "B38": {
+    "name": "Australia",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B3B": {
+    "name": "Brazil",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B3A": {
+    "name": "China",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B39": {
+    "name": "Egypt",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B3C": {
+    "name": "France",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B3D": {
+    "name": "Germany",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B3E": {
+    "name": "United Kingdom",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B3F": {
+    "name": "Greece",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B41": {
+    "name": "Japan",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B42": {
+    "name": "South Korea",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B43": {
+    "name": "Mexico",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B44": {
+    "name": "Nepal",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B45": {
+    "name": "Numbani",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B46": {
+    "name": "Russia",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B47": {
+    "name": "Sweden",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B48": {
+    "name": "Switzerland",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "B49": {
+    "name": "United States of America",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "summer-games"
+  },
+  "125A": {
+    "name": "Summer Games",
+    "rarity": "common",
+    "type": "spray",
+    "group": "summer-games"
+  },
+  "C72": {
+    "name": "Calavera",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C73": {
+    "name": "Vampachimari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C74": {
+    "name": "Eyeball",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C75": {
+    "name": "Superstition",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C76": {
+    "name": "Witch's Hat",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C77": {
+    "name": "Ghostymari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C78": {
+    "name": "Tombstone",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C79": {
+    "name": "Bewitching",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C7A": {
+    "name": "Candle",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C7F": {
+    "name": "...Never Die",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C80": {
+    "name": "Wolf",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C81": {
+    "name": "Witch's Brew",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C82": {
+    "name": "Spider",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "C4B": {
+    "name": "Bats",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "C4C": {
+    "name": "Witch's Brew",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "C4D": {
+    "name": "Pumpkins",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "C4E": {
+    "name": "Fangs",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "C70": {
+    "name": "Gummy Hog",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "C86": {
+    "name": "Candyball",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "C87": {
+    "name": "...Never Die",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "C3A": {
+    "name": "Halloween Terror",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "CAC": {
+    "name": "Boo!",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "CAE": {
+    "name": "Boop!",
+    "rarity": "common",
+    "type": "spray",
+    "group": "halloween-terror"
+  },
+  "12D9": {
+    "name": "Junkenstein's Pachimonster",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "12DA": {
+    "name": "Pachimummy",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "halloween-terror"
+  },
+  "D0A": {
+    "name": "Snow Globe",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D63": {
+    "name": "Peppermint",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D64": {
+    "name": "Bells",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D65": {
+    "name": "Dreidel",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D66": {
+    "name": "Mochi",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D67": {
+    "name": "Wreath",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D68": {
+    "name": "Cheers!",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D69": {
+    "name": "Hot Cocoa",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D6A": {
+    "name": "Snowman",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D6B": {
+    "name": "Ornament",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D6C": {
+    "name": "Present",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D6D": {
+    "name": "Pachimerry",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D6E": {
+    "name": "Gingermari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D6F": {
+    "name": "Stocking",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D70": {
+    "name": "2017",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D71": {
+    "name": "Holly",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D72": {
+    "name": "Tannenbaum",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D73": {
+    "name": "Bubbly",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D74": {
+    "name": "Gingerbread",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D75": {
+    "name": "Candy Cane",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D76": {
+    "name": "Pachireindeer",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "E52": {
+    "name": "Winter Wonderland",
+    "rarity": "common",
+    "type": "spray",
+    "group": "winter-wonderland"
+  },
+  "139F": {
+    "name": "2018",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "141D": {
+    "name": "Yetimari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "winter-wonderland"
+  },
+  "D58": {
+    "name": "Peachimari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EF2": {
+    "name": "Coin",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EF3": {
+    "name": "Tangerines",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EF4": {
+    "name": "Gold",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EF5": {
+    "name": "Lantern",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EF6": {
+    "name": "Have Fish",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EF7": {
+    "name": "Red Envelope",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EF8": {
+    "name": "Lucky Pouch",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EF9": {
+    "name": "Fortune",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EFA": {
+    "name": "Lion Dance",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EFB": {
+    "name": "Seollal",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EFC": {
+    "name": "New Year Cake",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EFD": {
+    "name": "Pachilantern",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "EFF": {
+    "name": "Dragon Dance",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "F00": {
+    "name": "Fuchimari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "F01": {
+    "name": "Bokimari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "F6D": {
+    "name": "Year of the Rooster",
+    "rarity": "common",
+    "type": "spray",
+    "group": "lunar-new-year"
+  },
+  "EF1": {
+    "name": "Dragon's Head",
+    "rarity": "common",
+    "type": "spray",
+    "group": "lunar-new-year"
+  },
+  "F4B": {
+    "name": "Red Envelope",
+    "rarity": "common",
+    "type": "spray",
+    "group": "lunar-new-year"
+  },
+  "F6F": {
+    "name": "Lucky Pouch",
+    "rarity": "common",
+    "type": "spray",
+    "group": "lunar-new-year"
+  },
+  "16A1": {
+    "name": "Good Fortune",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1642": {
+    "name": "Paqingmari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1643": {
+    "name": "Paquemari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1644": {
+    "name": "Huchimari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1645": {
+    "name": "Wuchimari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1646": {
+    "name": "Qinglong",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1647": {
+    "name": "Zhuque",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1648": {
+    "name": "Baihu",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1649": {
+    "name": "Xuanwu",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "lunar-new-year"
+  },
+  "1650": {
+    "name": "Year of the Dog",
+    "rarity": "common",
+    "type": "spray",
+    "group": "lunar-new-year"
+  },
+  "16A2": {
+    "name": "Good Fortune",
+    "rarity": "common",
+    "type": "spray",
+    "group": "lunar-new-year"
+  },
+  "106C": {
+    "name": "B73-NS",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "10B4": {
+    "name": "Null Sector",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "10B5": {
+    "name": "Drop Pod",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "10B6": {
+    "name": "Nullmari",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "10F1": {
+    "name": "Null Sector",
+    "rarity": "common",
+    "type": "spray",
+    "group": "archives"
+  },
+  "17A8": {
+    "name": "Assassin",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "17AB": {
+    "name": "Trooper",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "17AC": {
+    "name": "Sniper",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "17AD": {
+    "name": "Enforcer",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "17AE": {
+    "name": "Heavy Assault",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "17AF": {
+    "name": "Maximilien",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "archives"
+  },
+  "18EB": {
+    "name": "Archives",
+    "rarity": "common",
+    "type": "spray",
+    "group": "archives"
+  },
+  "1178": {
+    "name": "Anniversary 2017",
+    "rarity": "common",
+    "type": "spray",
+    "group": "anniversary"
+  },
+  "1195": {
+    "name": "Pachiversary",
+    "rarity": "rare",
+    "type": "player-icon",
+    "group": "anniversary"
   }
 }

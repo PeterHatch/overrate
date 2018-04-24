@@ -1,21 +1,26 @@
-def group_items(hero_items)
+def group_items(items)
   grouped_item_ids = {
     'heroes' => Hash.new do |hash, key|
        hash[key] = Hash.new do |hash, key|
          hash[key] = []
        end
      end,
+     'shared-sprays' => [],
+     'player-icons' => [],
   }
-  hero_items.each do |id, item|
+  items.each do |id, item|
     hero = item['hero']
     type = item['type']
     if type == 'player-icon'
-      next
+      grouped_item_ids['player-icons'].push(id)
+    elsif hero.nil?
+      grouped_item_ids['shared-sprays'].push(id)
+    else
+      grouped_item_ids['heroes'][hero][type + 's'].push(id)
     end
-    grouped_item_ids['heroes'][hero][type + 's'].push(id)
   end
 
-  sort_items(hero_items, grouped_item_ids)
+  sort_items(items, grouped_item_ids)
 end
 
 RARITY_ORDER = {
