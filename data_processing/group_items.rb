@@ -49,7 +49,7 @@ def sort_items(items, grouped_item_ids)
       item_ids.sort! do |a_id, b_id|
         a = items[a_id]
         b = items[b_id]
-        [RARITY_ORDER[a['rarity']], GROUP_ORDER[a['group']], a['name']] <=> [RARITY_ORDER[b['rarity']], GROUP_ORDER[b['group']], b['name']]
+        [RARITY_ORDER[a['rarity']], GROUP_ORDER[a['group']], a['name'].downcase] <=> [RARITY_ORDER[b['rarity']], GROUP_ORDER[b['group']], b['name'].downcase]
       end
     end
   end
