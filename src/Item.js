@@ -5,8 +5,8 @@ import ItemSettings from './ItemSettings.js'
 import items from './data/items.json'
 import './Item.sass'
 
-function Item(props) {
-  let item = items[props.id]
+function Item({ id }) {
+  let item = items[id]
 
   // Skip Overwatch League items for now
   if (item.group === 'overwatch-league') {
@@ -23,7 +23,7 @@ function Item(props) {
             use(xlinkHref=(icons + "#" + item.group))
           | 
         | #{item.name}
-    ItemSettings(id=props.id everyoneHas=item.availability === 'unlocked')
+    ItemSettings(id=id everyoneHas=item.availability === 'unlocked')
   `
 }
 

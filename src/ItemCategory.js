@@ -2,20 +2,11 @@ import React from 'react'
 import Item from './Item.js'
 import './ItemCategory.sass'
 
-let eventTranslation = {
-  "SUMMER_GAMES": "summer-games",
-  "HALLOWEEN": "halloween",
-  "WINTER_WONDERLAND": "winter-wonderland",
-  "LUNAR_NEW_YEAR": "lunar-new-year",
-  "UPRISING": "archives",
-  "ANNIVERSARY": "anniversary",
-}
-
-function ItemCategory(props) {
+function ItemCategory({category, itemIds}) {
   return pug`
-    h2 #{props.category}
+    h2 #{category}
     .items-container
-      each itemId in props.itemIds
+      each itemId in itemIds
         Item(key=itemId id=itemId)
   `
 }
