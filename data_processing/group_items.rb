@@ -54,5 +54,6 @@ def sort_items(items, grouped_item_ids)
     end
   end
 
+  grouped_item_ids['heroes'] = Hash[heroes_item_ids.sort] # Sort the heroes keys
   grouped_item_ids
 end
