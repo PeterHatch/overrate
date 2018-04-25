@@ -1,12 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import HeroList from './HeroList.js'
 import Hero from './Hero.js'
 
-class App extends Component {
-  render() {
-    return pug`
-      Hero(name="Ana")
-    `
-  }
+function App() {
+  return pug`
+    Switch
+      Route(path='/hero/:name' component=Hero)
+      Route(exact path='/' component=HeroList)
+  `
 }
 
 export default App
