@@ -5,13 +5,16 @@ import './HeroList.sass'
 
 function HeroList() {
   const heroNames = Object.keys(groupData.heroes)
-  const heroLinks = heroNames.map((name) => <HeroLink name={name}/>)
 
   return (
     <React.Fragment>
       <h1>Heroes</h1>
       <nav className="heroes">
-        {heroLinks}
+        {
+          heroNames.map(name =>
+            <HeroLink name={name}/>
+          )
+        }
       </nav>
     </React.Fragment>
   )
