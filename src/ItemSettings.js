@@ -1,5 +1,5 @@
 import React from 'react'
-import icons from './icons.svg'
+import Icon from './Icon.js'
 import './ItemSettings.sass'
 
 class ItemSettings extends React.Component {
@@ -69,17 +69,13 @@ class ItemSettings extends React.Component {
           <div className="have">
             <label>
               <input type="checkbox" checked={this.state.have} disabled={this.props.everyoneHas} onChange={this.toggleStateFunc({have: true})}/>
-              <svg className="have-icon" viewBox="0 0 1 1">
-                <use xlinkHref={`${icons}#checkmark`}/>
-              </svg>
+              <Icon id="checkmark"/>
             </label>
           </div>
           <div className="favorite">
             <label>
-              <input type="checkbox" checked={this.state.have} onChange={this.toggleStateFunc({favorite: true})}/>
-              <svg className="favorite-icon" viewBox="0 0 1 1">
-                <use xlinkHref={`${icons}#heart`}/>
-              </svg>
+              <input type="checkbox" checked={this.state.favorite} onChange={this.toggleStateFunc({favorite: true})}/>
+              <Icon id="heart"/>
             </label>
           </div>
           <div className="rating">
@@ -101,9 +97,7 @@ function RatingStar({ id: itemId, num, rating, onChange }) {
     <React.Fragment>
       <input id={elemId} type="checkbox" value={num} checked={rating === num} onChange={onChange}/>
       <label htmlFor={elemId}>
-        <svg className="rating-icon" viewBox="0 0 1 1">
-          <use xlinkHref={`${icons}#star`}/>
-        </svg>
+        <Icon id="star"/>
       </label>
     </React.Fragment>
   )

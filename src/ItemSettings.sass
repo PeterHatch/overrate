@@ -7,7 +7,7 @@
 .have input, .favorite input, .rating input
   display: none
 
-.have-icon, .favorite-icon, .rating-icon
+.settings .icon
   height: 1.125em
   vertical-align: top
   stroke-width: 1em
@@ -32,33 +32,33 @@
 .rating label
   margin-left: 0.125em
 
-.have input:checked + .have-icon
+.have input:checked + .icon
   fill: #080
   stroke: none
 
-.have-icon:hover
+.have .icon:hover
   stroke: #0f0
 
-.have input:disabled + .have-icon
+.have input:disabled + .icon
   fill: #888
   stroke: none
 
-.favorite input:checked + .favorite-icon
+.favorite input:checked + .icon
   fill: #800
   stroke: none
 
-.favorite-icon:hover
+.icon:hover
   stroke: red
 
-.rating input:checked ~ label > .rating-icon
+.rating input:checked ~ label > .icon
   fill: #fddc34
   stroke: none
 
-.rating label:hover > .rating-icon,
-.rating label:hover ~ label > .rating-icon
+.rating label:hover > .icon,
+.rating label:hover ~ label > .icon
   stroke: #ff4
 
-.have input:checked:not(:disabled) + .have-icon:hover,
-.favorite input:checked + .favorite-icon:hover,
-.rating input:checked ~ label:hover > .rating-icon
+.have input:checked:not(:disabled) + .icon:hover,
+.favorite input:checked + .icon:hover,
+.rating input:checked ~ label:hover > .icon
   stroke: white

@@ -1,7 +1,7 @@
 import React from 'react'
-import icons from './icons.svg'
-import currentEvent from './data/current-event.json'
+import Icon from './Icon.js'
 import ItemSettings from './ItemSettings.js'
+import currentEvent from './data/current-event.json'
 import items from './data/items.json'
 import './Item.sass'
 
@@ -25,10 +25,7 @@ function ItemName({ item }) {
   let eventIcon = null
   if (item.group) {
     const newItem = (item.group === currentEvent.event && item.year === currentEvent.year)
-    eventIcon =
-      <svg className={`event-icon${newItem ? ' new-item' : ''}`} viewBox="0 0 1 1">
-        <use xlinkHref={`${icons}#${item.group}`}/>
-      </svg>
+    eventIcon = <Icon id={item.group} className={newItem ? "new-item" : null}/>
   }
 
   return (
