@@ -63,42 +63,50 @@ class ItemSettings extends React.Component {
   }
 
   render() {
-    return pug`
-      .item-wrapper
-        .settings
-          .have
-            label
-              input(type="checkbox" checked=this.state.have disabled=this.props.everyoneHas onChange=this.toggleStateFunc({have: true}))
-              svg.have-icon(viewBox="0 0 1 1")
-                use(xlinkHref=(icons + "#checkmark"))
-          .favorite
-            label
-              input(type="checkbox" checked=this.state.favorite onChange=this.toggleStateFunc({favorite: true}))
-              svg.favorite-icon(viewBox="0 0 1 1")
-                use(xlinkHref=(icons + "#heart"))
-          .rating
-            input(id=this.props.id + "-rate-5" type="checkbox" value="5" checked=this.state.rating === 5 onChange=this.toggleStateFunc({rating: 5}))
-            label(for=this.props.id + "-rate-5")
-              svg.rating-icon(viewBox="0 0 1 1")
-                use(xlinkHref=(icons + "#star"))
-            input(id=this.props.id + "-rate-4" type="checkbox" value="4" checked=this.state.rating === 4 onChange=this.toggleStateFunc({rating: 4}))
-            label(for=this.props.id + "-rate-4")
-              svg.rating-icon(viewBox="0 0 1 1")
-                use(xlinkHref=(icons + "#star"))
-            input(id=this.props.id + "-rate-3" type="checkbox" value="3" checked=this.state.rating === 3 onChange=this.toggleStateFunc({rating: 3}))
-            label(for=this.props.id + "-rate-3")
-              svg.rating-icon(viewBox="0 0 1 1")
-                use(xlinkHref=(icons + "#star"))
-            input(id=this.props.id + "-rate-2" type="checkbox" value="2" checked=this.state.rating === 2 onChange=this.toggleStateFunc({rating: 2}))
-            label(for=this.props.id + "-rate-2")
-              svg.rating-icon(viewBox="0 0 1 1")
-                use(xlinkHref=(icons + "#star"))
-            input(id=this.props.id + "-rate-1" type="checkbox" value="1" checked=this.state.rating === 1 onChange=this.toggleStateFunc({rating: 1}))
-            label(for=this.props.id + "-rate-1")
-              svg.rating-icon(viewBox="0 0 1 1")
-                use(xlinkHref=(icons + "#star"))
-    `
+    return (
+      <div className="item-wrapper">
+        <div className="settings">
+          <div className="have">
+            <label>
+              <input type="checkbox" checked={this.state.have} disabled={this.props.everyoneHas} onChange={this.toggleStateFunc({have: true})}/>
+              <svg className="have-icon" viewBox="0 0 1 1">
+                <use xlinkHref={`${icons}#checkmark`}/>
+              </svg>
+            </label>
+          </div>
+          <div className="favorite">
+            <label>
+              <input type="checkbox" checked={this.state.have} onChange={this.toggleStateFunc({favorite: true})}/>
+              <svg className="favorite-icon" viewBox="0 0 1 1">
+                <use xlinkHref={`${icons}#heart`}/>
+              </svg>
+            </label>
+          </div>
+          <div className="rating">
+            <RatingStar num={5} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 5})}/>
+            <RatingStar num={4} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 4})}/>
+            <RatingStar num={3} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 3})}/>
+            <RatingStar num={2} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 2})}/>
+            <RatingStar num={1} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 1})}/>
+          </div>
+        </div>
+      </div>
+    )
   }
+}
+
+function RatingStar({ id: itemId, num, rating, onChange }) {
+  const elemId = `${itemId}-rate-${num}`
+  return (
+    <React.Fragment>
+      <input id={elemId} type="checkbox" value={num} checked={rating === num} onChange={onChange}/>
+      <label htmlFor={elemId}>
+        <svg className="rating-icon" viewBox="0 0 1 1">
+          <use xlinkHref={`${icons}#star`}/>
+        </svg>
+      </label>
+    </React.Fragment>
+  )
 }
 
 export default ItemSettings

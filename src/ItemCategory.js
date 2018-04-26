@@ -3,12 +3,14 @@ import Item from './Item.js'
 import './ItemCategory.sass'
 
 function ItemCategory({category, itemIds}) {
-  return pug`
-    h2 #{category}
-    .items-container
-      each itemId in itemIds
-        Item(key=itemId id=itemId)
-  `
+  const items = itemIds.map(itemId => <Item key={itemId} id={itemId}/>)
+
+  return (
+    <React.Fragment>
+      <h2>{category}</h2>
+      <div className='items-container'>{items}</div>
+    </React.Fragment>
+  )
 }
 
 export default ItemCategory

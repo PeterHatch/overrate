@@ -4,11 +4,12 @@ import HeroList from './HeroList.js'
 import Hero from './Hero.js'
 
 function App() {
-  return pug`
-    Switch
-      Route(path='/hero/:name' component=Hero)
-      Route(exact path='/' component=HeroList)
-  `
+  return (
+    <Switch>
+      <Route path='/hero/:name' component={Hero} />
+      <Route exact path='/' component={HeroList} />
+    </Switch>
+  )
 }
 
 export default App

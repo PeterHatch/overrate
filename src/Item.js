@@ -13,18 +13,33 @@ function Item({ id }) {
     return null
   }
 
-  const newItem = ((item.group && item.group === currentEvent.event && item.year === currentEvent.year) ? 'new-item' : '')
+  return (
+    <React.Fragment>
+      <ItemName item={item}/>
+      <ItemSettings id={id} everyoneHas={item.availability === 'unlocked'}/>
+    </React.Fragment>
+  )
+}
 
-  return pug`
-    .item-wrapper
-      .name(class=item.rarity)
-        if item.group
-          svg.event-icon(class=newItem viewBox="0 0 1 1")
-            use(xlinkHref=(icons + "#" + item.group))
-          | 
-        | #{item.name}
-    ItemSettings(id=id everyoneHas=item.availability === 'unlocked')
-  `
+function ItemName({ item }) {
+  let eventIcon = null
+  if (item.group) {
+    const newItem = (item.group === currentEvent.event && item.year === currentEvent.year)
+    eventIcon =
+      <svg className={`event-icon${newItem ? ' new-item' : ''}`} viewBox="0 0 1 1">
+        <use xlinkHref={`${icons}#${item.group}`}/>
+      </svg>
+  }
+
+  return (
+    <div className="item-wrapper">
+      <div className={`name ${item.rarity}`}>
+        {eventIcon}
+        {eventIcon ? ' ' : ''}
+        {item.name}
+      </div>
+    </div>
+  )
 }
 
 export default Item
