@@ -1,12 +1,27 @@
+require 'set'
+
+TYPE_NAMES = {
+  'skin' => 'Skins',
+  'emote' => 'Emotes',
+  'pose' => 'Victory Poses',
+  'voice-line' => 'Voice Lines',
+  'spray' => 'Sprays',
+  'highlight-intro' => 'Highlight Intros',
+  'weapon' => 'Weapons',
+}
+
 def group_items(items)
+  heroes = items.values.map{|item| item['hero']}.to_set.delete(nil)
+  hero_item_ids = {}
+  (heroes.sort).each do |hero|
+    item_groups = Hash[TYPE_NAMES.values.map{|name| [name, []]}]
+    hero_item_ids[hero] = item_groups
+  end
+
   grouped_item_ids = {
-    'heroes' => Hash.new do |hash, key|
-       hash[key] = Hash.new do |hash, key|
-         hash[key] = []
-       end
-     end,
-     'shared-sprays' => [],
-     'player-icons' => [],
+    'heroes' => hero_item_ids,
+    'shared-sprays' => [],
+    'player-icons' => [],
   }
   items.each do |id, item|
     hero = item['hero']
@@ -16,7 +31,7 @@ def group_items(items)
     elsif hero.nil?
       grouped_item_ids['shared-sprays'].push(id)
     else
-      grouped_item_ids['heroes'][hero][type + 's'].push(id)
+      grouped_item_ids['heroes'][hero][TYPE_NAMES[type]].push(id)
     end
   end
 
@@ -54,6 +69,5 @@ def sort_items(items, grouped_item_ids)
     end
   end
 
-  grouped_item_ids['heroes'] = Hash[heroes_item_ids.sort] # Sort the heroes keys
   grouped_item_ids
 end
