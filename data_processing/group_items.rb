@@ -1,6 +1,6 @@
 require 'set'
 
-TYPE_NAMES = {
+HERO_TYPE_NAMES = {
   'skin' => 'Skins',
   'emote' => 'Emotes',
   'pose' => 'Victory Poses',
@@ -10,11 +10,13 @@ TYPE_NAMES = {
   'weapon' => 'Weapons',
 }
 
+ALL_TYPe_NAMES = Hash[HERO_TYPE_NAMES.entries.push(['player-icons', 'Player Icons'])]
+
 def group_items(items)
   heroes = items.values.map{|item| item['hero']}.to_set.delete(nil)
   hero_item_ids = {}
   (heroes.sort).each do |hero|
-    item_groups = Hash[TYPE_NAMES.values.map{|name| [name, []]}]
+    item_groups = Hash[HERO_TYPE_NAMES.values.map{|name| [name, []]}]
     hero_item_ids[hero] = item_groups
   end
 
@@ -31,7 +33,7 @@ def group_items(items)
     elsif hero.nil?
       grouped_item_ids['shared-sprays'].push(id)
     else
-      grouped_item_ids['heroes'][hero][TYPE_NAMES[type]].push(id)
+      grouped_item_ids['heroes'][hero][HERO_TYPE_NAMES[type]].push(id)
     end
   end
 
@@ -61,13 +63,18 @@ def sort_items(items, grouped_item_ids)
   heroes_item_ids = grouped_item_ids['heroes']
   heroes_item_ids.each do |hero, hero_item_ids|
     hero_item_ids.each do |type, item_ids|
-      item_ids.sort! do |a_id, b_id|
-        a = items[a_id]
-        b = items[b_id]
-        [RARITY_ORDER[a['rarity']], GROUP_ORDER[a['group']], a['name'].downcase] <=> [RARITY_ORDER[b['rarity']], GROUP_ORDER[b['group']], b['name'].downcase]
+      item_ids.sort_by! do |id|
+        sort_key(items[id])
       end
     end
   end
 
+  grouped_item_ids['shared-sprays'].sort_by!{|id| sort_key(items[id])}
+  grouped_item_ids['player-icons'].sort_by!{|id| sort_key(items[id])}
+
   grouped_item_ids
+end
+
+def sort_key(item)
+  [item['hero'].nil? ? 1 : 0, item['hero'], RARITY_ORDER[item['rarity']], GROUP_ORDER[item['group']], item['name'].downcase]
 end
