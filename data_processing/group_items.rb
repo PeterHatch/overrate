@@ -1,6 +1,7 @@
+require 'pry'
 require 'set'
 
-HERO_TYPE_NAMES = {
+TYPE_NAMES = {
   'skin' => 'Skins',
   'emote' => 'Emotes',
   'pose' => 'Victory Poses',
@@ -8,22 +9,37 @@ HERO_TYPE_NAMES = {
   'spray' => 'Sprays',
   'highlight-intro' => 'Highlight Intros',
   'weapon' => 'Weapons',
+  'player-icon' => 'Player Icons',
 }
 
-ALL_TYPe_NAMES = Hash[HERO_TYPE_NAMES.entries.push(['player-icons', 'Player Icons'])]
+EVENT_NAMES = {
+  'summer-games' => 'Summer Games',
+  'halloween-terror' => 'Halloween Terror',
+  'winter-wonderland' => 'Winter Wonderland',
+  'lunar-new-year' => 'Lunar New Year',
+  'archives' => 'Archives',
+  'anniversary' => 'Anniversary',
+}
 
 def group_items(items)
   heroes = items.values.map{|item| item['hero']}.to_set.delete(nil)
   hero_item_ids = {}
   (heroes.sort).each do |hero|
-    item_groups = Hash[HERO_TYPE_NAMES.values.map{|name| [name, []]}]
+    item_groups = Hash[TYPE_NAMES.values.map{|name| [name, []]}]
     hero_item_ids[hero] = item_groups
+  end
+
+  event_item_ids = {}
+  EVENT_NAMES.values.each do |name|
+    item_groups = Hash[TYPE_NAMES.values.map{|name| [name, []]}]
+    event_item_ids[name] = item_groups
   end
 
   grouped_item_ids = {
     'heroes' => hero_item_ids,
     'shared-sprays' => [],
     'player-icons' => [],
+    'events' => event_item_ids,
   }
   items.each do |id, item|
     hero = item['hero']
@@ -33,7 +49,18 @@ def group_items(items)
     elsif hero.nil?
       grouped_item_ids['shared-sprays'].push(id)
     else
-      grouped_item_ids['heroes'][hero][HERO_TYPE_NAMES[type]].push(id)
+      hero_item_ids[hero][TYPE_NAMES[type]].push(id)
+    end
+
+    group = item['group']
+    if EVENT_NAMES.keys.include?(group)
+      event_item_ids[EVENT_NAMES[group]][TYPE_NAMES[type]].push(id)
+    end
+  end
+
+  (hero_item_ids.values + event_item_ids.values).each do |item_groups|
+    item_groups.delete_if do |_, item_ids|
+      item_ids.empty?
     end
   end
 
