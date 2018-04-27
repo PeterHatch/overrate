@@ -64,7 +64,9 @@ def group_items(items)
     end
   end
 
-  sort_items(items, grouped_item_ids)
+  sort_item_ids_in_hash(items, grouped_item_ids)
+
+  grouped_item_ids
 end
 
 RARITY_ORDER = {
@@ -86,20 +88,16 @@ GROUP_ORDER = {
   'overwatch-league' => 8,
 }
 
-def sort_items(items, grouped_item_ids)
-  heroes_item_ids = grouped_item_ids['heroes']
-  heroes_item_ids.each do |hero, hero_item_ids|
-    hero_item_ids.each do |type, item_ids|
-      item_ids.sort_by! do |id|
+def sort_item_ids_in_hash(items, hash_with_item_id_arrays)
+  hash_with_item_id_arrays.values.each do |value|
+    if value.is_a? Hash
+      sort_item_ids_in_hash(items, value)
+    else
+      value.sort_by! do |id|
         sort_key(items[id])
       end
     end
   end
-
-  grouped_item_ids['shared-sprays'].sort_by!{|id| sort_key(items[id])}
-  grouped_item_ids['player-icons'].sort_by!{|id| sort_key(items[id])}
-
-  grouped_item_ids
 end
 
 def sort_key(item)
