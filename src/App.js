@@ -10,10 +10,10 @@ function App() {
   return (
     <Switch>
       <Route path='/hero/:name' component={Hero} />
-      <Route exact path='/' component={HeroList} />
-      <Route exact path='/sharedSprays' component={SharedSprays} />
-      <Route exact path='/playerIcons' component={PlayerIcons} />
       <Route path='/event/:name' component={Event} />
+      <Route path='/shared-sprays' component={SharedSprays} />
+      <Route path='/player-icons' component={PlayerIcons} />
+      <Route exact path='/' component={HeroList} />
     </Switch>
   )
 }

@@ -1,27 +1,21 @@
 import React from 'react'
 import ItemCategory from './ItemCategory.js'
-import itemData from './data/items.json'
+import groupData from './data/groups.json'
 
 function Event({ match }) {
-  const eventName = match.params.name
-  const ids = eventItems(eventName)
-
+  const name = match.params.name
+  const itemsByType = groupData.events[name]
 
   return (
     <React.Fragment>
-      <h1>{eventName}</h1>
-      <ItemCategory category={eventName} itemIds={ids}/>
+      <h1>{name}</h1>
+      {
+        Object.entries(itemsByType).map(([categoryName, itemIds]) =>
+          <ItemCategory key={categoryName} category={categoryName} itemIds={itemIds}/>
+        )
+      }
     </React.Fragment>
   )
-}
-
-function allItems() {
-  const items = itemData
-  return Object.keys(items).map(key=>Object.assign(items[key], {'id': key}))
-}
-
-function eventItems(eventName) {
-  return allItems().filter(item=>item['group']===eventName).map(item=>item['id'])
 }
 
 export default Event

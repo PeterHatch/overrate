@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Icon from './Icon.js'
 import groupData from './data/groups.json'
 import './HeroList.sass'
 
 function HeroList() {
   const heroNames = Object.keys(groupData.heroes)
-  const eventNames = ["summer-games", "halloween-terror", "winter-wonderland", "lunar-new-year", "archives", "anniversary"]
+  const eventNames = Object.keys(groupData.events)
 
   return (
     <React.Fragment>
@@ -13,20 +14,24 @@ function HeroList() {
       <nav className="heroes">
         {
           heroNames.map(name =>
-            <HeroLink name={name}/>
+            <HeroLink key={name} name={name}/>
           )
         }
       </nav>
       <h1>Shared Content</h1>
-      <nav className="heroes">
-        <SharedSpraysLink/>
-        <PlayerIconsLink/>
+      <nav className="text-links">
+        <div>
+          <Link to={`/sharedSprays`}>Shared Sprays</Link>
+        </div>
+        <div>
+          <Link to={`/playerIcons`}>Player Icons</Link>
+        </div>
       </nav>
       <h1>Events</h1>
-      <nav className="heroes">
+      <nav className="text-links">
         {
           eventNames.map(name =>
-            <EventLink name={name}/>
+            <EventLink key={name} name={name}/>
           )
         }
       </nav>
@@ -38,42 +43,25 @@ function HeroLink({ name }) {
   const smallText = (name === 'Widowmaker')
 
   return (
-    <Link key={name} to={`/hero/${name}`}>
+    <Link to={`/hero/${name}`}>
       <img src={`/hero-select/${name.replace(':', '')}.png`} alt=""/>
       <span className={smallText ? 'small' : null}>{name}</span>
     </Link>
   )
 }
 
-function SharedSpraysLink() {
-  return (
-    <Link to={`/sharedSprays`}>
-      <img src={`/hero-select/Logo.png`} alt=""/>
-      <span className='small'>Shared Sprays</span>
-    </Link>
-  )
-}
-
-function PlayerIconsLink() {
-  return (
-    <Link to={`/playerIcons`}>
-      <img src={`/hero-select/player-icons.png`} alt=""/>
-      <span className='small'>Player Icons</span>
-    </Link>
-  )
-}
-
 function EventLink({ name }) {
-  return (
-    <Link key={name} to={`/event/${name}`}>
-      <img src={`hero-select/Logo.png`} alt=""/>
-      <span className='small'>{titleize(name)}</span>
-    </Link>
-  )
-}
+  const nameAsId = name.toLowerCase().replace(/ /g, '-')
 
-function titleize(name) {
-  return name.split('-').map(name=>name[0].toUpperCase()+name.slice(1)).join(' ')
+  return (
+    <div>
+      <Link to={`/event/${name}`}>
+        <Icon id={nameAsId}/>
+        {` ${name} `}
+        <Icon id={nameAsId}/>
+      </Link>
+    </div>
+  )
 }
 
 export default HeroList

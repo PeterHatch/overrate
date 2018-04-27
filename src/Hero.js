@@ -4,14 +4,14 @@ import groupData from './data/groups.json'
 
 function Hero({ match }) {
   const name = match.params.name
-  const heroGroups = groupData.heroes[name]
+  const itemsByType = groupData.heroes[name]
 
   return (
     <React.Fragment>
       <h1>{name}</h1>
       {
-        Object.entries(heroGroups).map(([categoryName, itemIds]) =>
-          <ItemCategory category={categoryName} itemIds={itemIds}/>
+        Object.entries(itemsByType).map(([categoryName, itemIds]) =>
+          <ItemCategory key={categoryName} category={categoryName} itemIds={itemIds}/>
         )
       }
     </React.Fragment>
