@@ -15,6 +15,8 @@ function HeroList() {
             <HeroLink name={name}/>
           )
         }
+        <SharedSpraysLink/>
+        <PlayerIconsLink/>
       </nav>
     </React.Fragment>
   )
@@ -27,6 +29,24 @@ function HeroLink({ name }) {
     <Link key={name} to={`/hero/${name}`}>
       <img src={`/hero-select/${name.replace(':', '')}.png`} alt=""/>
       <span className={smallText ? 'small' : null}>{name}</span>
+    </Link>
+  )
+}
+
+function SharedSpraysLink() {
+  return (
+    <Link to={`/sharedSprays`}>
+      <img src={`/hero-select/Ana.png`} alt=""/>
+      <span className='small'>Shared Sprays</span>
+    </Link>
+  )
+}
+
+function PlayerIconsLink() {
+  return (
+    <Link to={`/playerIcons`}>
+      <img src={`/hero-select/Tracer.png`} alt=""/>
+      <span className='small'>Player Icons</span>
     </Link>
   )
 }
