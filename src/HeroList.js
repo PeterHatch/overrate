@@ -21,10 +21,10 @@ function HeroList() {
       <h1>Shared Content</h1>
       <nav className="text-links">
         <div>
-          <Link to={`/sharedSprays`}>Shared Sprays</Link>
+          <Link to={`/shared-sprays`}>Shared Sprays</Link>
         </div>
         <div>
-          <Link to={`/playerIcons`}>Player Icons</Link>
+          <Link to={`/player-icons`}>Player Icons</Link>
         </div>
       </nav>
       <h1>Events</h1>
