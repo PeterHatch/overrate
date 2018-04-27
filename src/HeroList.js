@@ -36,7 +36,7 @@ function HeroLink({ name }) {
 function SharedSpraysLink() {
   return (
     <Link to={`/sharedSprays`}>
-      <img src={`/hero-select/Ana.png`} alt=""/>
+      <img src={`/hero-select/Logo.png`} alt=""/>
       <span className='small'>Shared Sprays</span>
     </Link>
   )
@@ -45,7 +45,7 @@ function SharedSpraysLink() {
 function PlayerIconsLink() {
   return (
     <Link to={`/playerIcons`}>
-      <img src={`/hero-select/Tracer.png`} alt=""/>
+      <img src={`/hero-select/player-icons.png`} alt=""/>
       <span className='small'>Player Icons</span>
     </Link>
   )
