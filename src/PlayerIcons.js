@@ -7,6 +7,7 @@ function PlayerIcons() {
   const ids = groupData["player-icons"]
   return (
     <React.Fragment>
+      <h1>All Heroes</h1>
       <ItemCategory category="Player Icons" itemIds={ids}/>
     </React.Fragment>
   )
