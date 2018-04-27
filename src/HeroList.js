@@ -15,6 +15,9 @@ function HeroList() {
             <HeroLink name={name}/>
           )
         }
+      </nav>
+      <h1>Shared Content</h1>
+      <nav className="heroes">
         <SharedSpraysLink/>
         <PlayerIconsLink/>
       </nav>
