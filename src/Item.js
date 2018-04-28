@@ -5,7 +5,7 @@ import currentEvent from './data/current-event.json'
 import items from './data/items.json'
 import './Item.sass'
 
-function Item({ id }) {
+function Item({ id, hideHero, hideEvent }) {
   let item = items[id]
 
   // Skip Overwatch League items for now
@@ -15,21 +15,27 @@ function Item({ id }) {
 
   return (
     <React.Fragment>
-      <ItemName item={item}/>
+      <ItemName item={item} hideHero={hideHero} hideEvent={hideEvent}/>
       <ItemSettings id={id} everyoneHas={item.availability === 'unlocked'}/>
     </React.Fragment>
   )
 }
 
-function ItemName({ item }) {
+function ItemName({ item, hideHero, hideEvent }) {
   let eventIcon = null
-  if (item.group) {
+  if (item.group && !hideEvent) {
     const newItem = (item.group === currentEvent.event && item.year === currentEvent.year)
     eventIcon = <Icon id={item.group} className={newItem ? "new-item" : null}/>
   }
+  const hero = hideHero ? null : item.hero
 
   return (
     <div className="item-wrapper">
+      {
+        do { if (hero) {
+          <div className="hero">{hero}</div>
+        }}
+      }
       <div className={`name ${item.rarity}`}>
         {eventIcon}
         {eventIcon ? ' ' : ''}
