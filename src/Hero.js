@@ -11,7 +11,7 @@ function Hero({ match }) {
       <h1>{name}</h1>
       {
         Object.entries(itemsByType).map(([categoryName, itemIds]) =>
-          <ItemCategory key={categoryName} category={categoryName} itemIds={itemIds} hideHero={true}/>
+          <ItemCategory key={categoryName} category={categoryName} itemIds={itemIds} hideHero/>
         )
       }
     </React.Fragment>

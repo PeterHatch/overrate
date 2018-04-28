@@ -11,7 +11,7 @@ function Event({ match }) {
       <h1>{name}</h1>
       {
         Object.entries(itemsByType).map(([categoryName, itemIds]) =>
-          <ItemCategory key={categoryName} category={categoryName} itemIds={itemIds} hideEvent={true}/>
+          <ItemCategory key={categoryName} category={categoryName} itemIds={itemIds} hideEvent/>
         )
       }
     </React.Fragment>
