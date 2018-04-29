@@ -12,14 +12,14 @@ TYPE_NAMES = {
   'player-icon' => 'Player Icons',
 }
 
-EVENT_NAMES = {
-  'summer-games' => 'Summer Games',
-  'halloween-terror' => 'Halloween Terror',
-  'winter-wonderland' => 'Winter Wonderland',
-  'lunar-new-year' => 'Lunar New Year',
-  'archives' => 'Archives',
-  'anniversary' => 'Anniversary',
-}
+EVENTS = [
+  'summer-games',
+  'halloween-terror',
+  'winter-wonderland',
+  'lunar-new-year',
+  'archives',
+  'anniversary',
+]
 
 def group_items(items)
   heroes = items.values.map{|item| item['hero']}.to_set.delete(nil)
@@ -30,7 +30,7 @@ def group_items(items)
   end
 
   event_item_ids = {}
-  EVENT_NAMES.values.each do |name|
+  EVENTS.each do |name|
     item_groups = Hash[TYPE_NAMES.values.map{|name| [name, []]}]
     event_item_ids[name] = item_groups
   end
@@ -53,8 +53,8 @@ def group_items(items)
     end
 
     group = item['group']
-    if EVENT_NAMES.keys.include?(group)
-      event_item_ids[EVENT_NAMES[group]][TYPE_NAMES[type]].push(id)
+    if EVENTS.include?(group)
+      event_item_ids[group][TYPE_NAMES[type]].push(id)
     end
   end
 

@@ -64,27 +64,25 @@ class ItemSettings extends React.Component {
 
   render() {
     return (
-      <div className="item-wrapper">
-        <div className="settings">
-          <div className="have">
-            <label>
-              <input type="checkbox" checked={this.state.have} disabled={this.props.everyoneHas} onChange={this.toggleStateFunc({have: true})}/>
-              <Icon id="checkmark"/>
-            </label>
-          </div>
-          <div className="favorite">
-            <label>
-              <input type="checkbox" checked={this.state.favorite} onChange={this.toggleStateFunc({favorite: true})}/>
-              <Icon id="heart"/>
-            </label>
-          </div>
-          <div className="rating">
-            <RatingStar num={5} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 5})}/>
-            <RatingStar num={4} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 4})}/>
-            <RatingStar num={3} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 3})}/>
-            <RatingStar num={2} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 2})}/>
-            <RatingStar num={1} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 1})}/>
-          </div>
+      <div className="settings">
+        <div className="have">
+          <label>
+            <input type="checkbox" checked={this.state.have} disabled={this.props.everyoneHas} onChange={this.toggleStateFunc({have: true})}/>
+            <Icon id="checkmark"/>
+          </label>
+        </div>
+        <div className="favorite">
+          <label>
+            <input type="checkbox" checked={this.state.favorite} onChange={this.toggleStateFunc({favorite: true})}/>
+            <Icon id="heart"/>
+          </label>
+        </div>
+        <div className="rating">
+          <RatingStar num={5} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 5})}/>
+          <RatingStar num={4} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 4})}/>
+          <RatingStar num={3} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 3})}/>
+          <RatingStar num={2} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 2})}/>
+          <RatingStar num={1} id={this.props.id} rating={this.state.rating} onChange={this.toggleStateFunc({rating: 1})}/>
         </div>
       </div>
     )

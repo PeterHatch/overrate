@@ -2,8 +2,7 @@ import React from 'react'
 import ItemCategory from './ItemCategory.js'
 import groupData from './data/groups.json'
 
-function Hero({ match }) {
-  const name = match.params.name
+function Hero({ name, scrollTarget }) {
   const itemsByType = groupData.heroes[name]
 
   return (
@@ -11,7 +10,7 @@ function Hero({ match }) {
       <h1>{name}</h1>
       {
         Object.entries(itemsByType).map(([categoryName, itemIds]) =>
-          <ItemCategory key={categoryName} category={categoryName} itemIds={itemIds} hideHero/>
+          <ItemCategory key={categoryName} category={categoryName} itemIds={itemIds} hideHero scrollTarget={scrollTarget}/>
         )
       }
     </React.Fragment>

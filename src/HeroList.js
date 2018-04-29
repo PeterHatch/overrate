@@ -51,14 +51,14 @@ function HeroLink({ name }) {
 }
 
 function EventLink({ name }) {
-  const nameAsId = name.toLowerCase().replace(/ /g, '-')
+  const englishName = name.replace(/^[a-z]/, match => match.toUpperCase()).replace(/-([a-z])/g, (_, match) => ` ${match.toUpperCase()}`)
 
   return (
     <div>
       <Link to={`/event/${name}`}>
-        <Icon id={nameAsId}/>
-        {` ${name} `}
-        <Icon id={nameAsId}/>
+        <Icon id={name}/>
+        {` ${englishName} `}
+        <Icon id={name}/>
       </Link>
     </div>
   )
