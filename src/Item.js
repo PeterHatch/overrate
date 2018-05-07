@@ -45,15 +45,22 @@ class Item extends React.Component {
 function ItemName({ id, hideHero, hideEvent }) {
   const item = items[id]
 
+  let newItem = null
+  if (item.group === currentEvent.event && item.year === currentEvent.year) {
+    newItem = (
+      <span className="new">New</span>
+    )
+  }
+
   let eventIcon = null
   if (item.group && !hideEvent) {
-    const newItem = (item.group === currentEvent.event && item.year === currentEvent.year)
     eventIcon = (
       <Link to={`/event/${item.group}#${id}`}>
         <Icon id={item.group} className={newItem ? "new-item" : null}/>
       </Link>
     )
   }
+
   const hero = hideHero ? null : item.hero
 
   return (
@@ -66,6 +73,8 @@ function ItemName({ id, hideHero, hideEvent }) {
         }}
       }
       <div className={`name ${item.rarity}`}>
+        {newItem}
+        {newItem ? ' ' : ''}
         {eventIcon}
         {eventIcon ? ' ' : ''}
         {item.name}
