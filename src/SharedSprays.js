@@ -7,8 +7,7 @@ function SharedSprays({ scrollTarget }) {
 
   return (
     <React.Fragment>
-      <h1>Shared Sprays</h1>
-      <ItemCategory category="Shared Sprays" itemIds={ids} scrollTarget={scrollTarget}/>
+      <ItemCategory category="Shared Sprays" itemIds={ids} onlyCategory={true} scrollTarget={scrollTarget}/>
     </React.Fragment>
   )
 }

@@ -7,8 +7,7 @@ function PlayerIcons({ scrollTarget }) {
 
   return (
     <React.Fragment>
-      <h1>Player Icons</h1>
-      <ItemCategory category="Player Icons" itemIds={ids} scrollTarget={scrollTarget}/>
+      <ItemCategory category="Player Icons" itemIds={ids} onlyCategory={true} scrollTarget={scrollTarget}/>
     </React.Fragment>
   )
 }
