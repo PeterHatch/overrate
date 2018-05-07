@@ -853,16 +853,14 @@
     "name": "Slipstream",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10BC": {
     "hero": "Tracer",
     "name": "Cadet",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "F77": {
     "hero": "Tracer",
@@ -870,24 +868,21 @@
     "rarity": "legendary",
     "type": "skin",
     "description": "Tracer was put into active duty as an Overwatch agent for the first time during the King's Row uprising.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E5": {
     "hero": "Tracer",
     "name": "Don't be daft",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E6": {
     "hero": "Tracer",
     "name": "Sorry I'm late",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "191E": {
     "hero": "Tracer",
@@ -895,7 +890,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "A7E": {
     "hero": "Tracer",
@@ -1755,32 +1750,28 @@
     "name": "Student",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "105B": {
     "hero": "Symmetra",
     "name": "Light Reading",
     "rarity": "rare",
     "type": "pose",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E1": {
     "hero": "Symmetra",
     "name": "Taken under advisement",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E2": {
     "hero": "Symmetra",
     "name": "Kindly adjust",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "191D": {
     "hero": "Symmetra",
@@ -1788,7 +1779,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "CF6": {
     "hero": "Symmetra",
@@ -2680,24 +2671,21 @@
     "name": "Chopper",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10DB": {
     "hero": "Roadhog",
     "name": "Killed for less than that",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10DC": {
     "hero": "Roadhog",
     "name": "She'll be right",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "17FC": {
     "hero": "Roadhog",
@@ -2705,7 +2693,7 @@
     "rarity": "rare",
     "type": "pose",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1918": {
     "hero": "Roadhog",
@@ -2713,7 +2701,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "10AC": {
     "hero": "Roadhog",
@@ -3559,32 +3547,28 @@
     "name": "Target Practice",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1061": {
     "hero": "Pharah",
     "name": "Flair",
     "rarity": "epic",
     "type": "emote",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D5": {
     "hero": "Pharah",
     "name": "Don't take it personally",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D6": {
     "hero": "Pharah",
     "name": "I am the Rocket Queen",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1919": {
     "hero": "Pharah",
@@ -3592,7 +3576,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "FE6": {
     "hero": "Pharah",
@@ -4450,16 +4434,14 @@
     "name": "Poster",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10BB": {
     "hero": "Reinhardt",
     "name": "Lieutenant",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "FD9": {
     "hero": "Reinhardt",
@@ -4467,24 +4449,21 @@
     "rarity": "epic",
     "type": "skin",
     "description": "Lieutenant Reinhardt Wilhelm served with distinction in his time during Overwatch, notably leading the strike team that ended the King's Row uprising.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D9": {
     "hero": "Reinhardt",
     "name": "Easy does it",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10DA": {
     "hero": "Reinhardt",
     "name": "Unstoppable",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1744": {
     "hero": "Reinhardt",
@@ -4492,7 +4471,7 @@
     "rarity": "rare",
     "type": "pose",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1914": {
     "hero": "Reinhardt",
@@ -4500,7 +4479,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "CF5": {
     "hero": "Reinhardt",
@@ -5343,16 +5322,14 @@
     "name": "Ramen",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B9": {
     "hero": "Genji",
     "name": "Cyborg",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "F91": {
     "hero": "Genji",
@@ -5360,32 +5337,28 @@
     "rarity": "legendary",
     "type": "skin",
     "description": "After agreeing to aid the organization, Genji was upgraded extensively by Overwatch's cyberneticists.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "105A": {
     "hero": "Genji",
     "name": "Meditate",
     "rarity": "rare",
     "type": "pose",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C5": {
     "hero": "Genji",
     "name": "Another!",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C6": {
     "hero": "Genji",
     "name": "Life and death balance",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "191C": {
     "hero": "Genji",
@@ -5393,7 +5366,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "FE5": {
     "hero": "Genji",
@@ -6247,32 +6220,28 @@
     "name": "Commando",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "104D": {
     "hero": "Soldier: 76",
     "name": "Push-ups",
     "rarity": "epic",
     "type": "emote",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10DD": {
     "hero": "Soldier: 76",
     "name": "Not getting any younger",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10DE": {
     "hero": "Soldier: 76",
     "name": "Whatever you say",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "191A": {
     "hero": "Soldier: 76",
@@ -6280,7 +6249,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "CF1": {
     "hero": "Soldier: 76",
@@ -7157,8 +7126,7 @@
     "name": "Sunken",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "FE8": {
     "hero": "Bastion",
@@ -7166,24 +7134,21 @@
     "rarity": "epic",
     "type": "skin",
     "description": "Bastion units were reengineered and upgraded by Null Sector and deployed during the King's Row Uprising.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10F4": {
     "hero": "Bastion",
     "name": "DWEE WEE WOH",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10F5": {
     "hero": "Bastion",
     "name": "ZWEE-AH WHEEE DOO WOO",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1911": {
     "hero": "Bastion",
@@ -7191,7 +7156,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "FF9": {
     "hero": "Bastion",
@@ -8066,24 +8031,21 @@
     "name": "Espresso",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10DF": {
     "hero": "Sombra",
     "name": "Don't be a coward",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E0": {
     "hero": "Sombra",
     "name": "I'd love to stay and chat",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1258": {
     "hero": "Sombra",
@@ -8092,7 +8054,7 @@
     "type": "skin",
     "description": "Sombra is only too happy to utilize the power and reach of Talon while pursuing her own goals.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17B6": {
     "hero": "Sombra",
@@ -8100,7 +8062,7 @@
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1912": {
     "hero": "Sombra",
@@ -8108,7 +8070,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1094": {
     "hero": "Sombra",
@@ -8979,16 +8941,14 @@
     "name": "Combat Medic",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B8": {
     "hero": "Mercy",
     "name": "Combat Medic",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "F8E": {
     "hero": "Mercy",
@@ -8996,24 +8956,21 @@
     "rarity": "legendary",
     "type": "skin",
     "description": "When called upon, Mercy would don her Valkyrie swift-response suit to participate in Overwatch missions.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D1": {
     "hero": "Mercy",
     "name": "Take care of yourself",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D2": {
     "hero": "Mercy",
     "name": "Not sure why I bother",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "190A": {
     "hero": "Mercy",
@@ -9021,7 +8978,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "CAA": {
     "hero": "Mercy",
@@ -9894,24 +9851,21 @@
     "name": "Newborn",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C1": {
     "hero": "Ana",
     "name": "Damn",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C2": {
     "hero": "Ana",
     "name": "The Ghost Watches",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1908": {
     "hero": "Ana",
@@ -9919,7 +9873,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "FF8": {
     "hero": "Ana",
@@ -10795,24 +10749,21 @@
     "name": "Sidecar",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C9": {
     "hero": "Junkrat",
     "name": "Too right",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10CA": {
     "hero": "Junkrat",
     "name": "Come the raw prawn",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "17FA": {
     "hero": "Junkrat",
@@ -10820,7 +10771,7 @@
     "rarity": "rare",
     "type": "pose",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "190E": {
     "hero": "Junkrat",
@@ -10828,7 +10779,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "10AB": {
     "hero": "Junkrat",
@@ -11691,16 +11642,14 @@
     "name": "Target Practice",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10BE": {
     "hero": "McCree",
     "name": "Blackwatch",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "D05": {
     "hero": "McCree",
@@ -11708,32 +11657,28 @@
     "rarity": "legendary",
     "type": "skin",
     "description": "A young Jesse McCree was recruited into Blackwatch after Gabriel Reyes saw his potential and gave him a choice: join Blackwatch, or rot in prison.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1058": {
     "hero": "McCree",
     "name": "Showdown",
     "rarity": "rare",
     "type": "pose",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10CD": {
     "hero": "McCree",
     "name": "A man's gotta have rules",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10CE": {
     "hero": "McCree",
     "name": "The Old Fashioned Way",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "190C": {
     "hero": "McCree",
@@ -11741,7 +11686,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "CA9": {
     "hero": "McCree",
@@ -12611,40 +12556,35 @@
     "name": "Wedding",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10BD": {
     "hero": "Widowmaker",
     "name": "Lacroix",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "103E": {
     "hero": "Widowmaker",
     "name": "Talon",
     "rarity": "legendary",
     "type": "skin",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E7": {
     "hero": "Widowmaker",
     "name": "The performance begins",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E8": {
     "hero": "Widowmaker",
     "name": "Your emotions",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "191F": {
     "hero": "Widowmaker",
@@ -12652,7 +12592,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "F60": {
     "hero": "Widowmaker",
@@ -13449,7 +13389,7 @@
     "type": "skin",
     "description": "Doomfist rose in power in Talon after killing his mentor, Akinjide Adeyemi, the Scourge of Numbani.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1288": {
     "hero": "Doomfist",
@@ -13457,7 +13397,7 @@
     "rarity": "epic",
     "type": "highlight-intro",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17B4": {
     "hero": "Doomfist",
@@ -13465,7 +13405,7 @@
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18DA": {
     "hero": "Doomfist",
@@ -13473,7 +13413,7 @@
     "rarity": "common",
     "type": "spray",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1937": {
     "hero": "Doomfist",
@@ -13481,7 +13421,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1938": {
     "hero": "Doomfist",
@@ -13489,7 +13429,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1939": {
     "hero": "Doomfist",
@@ -13497,7 +13437,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "12E6": {
     "hero": "Moira",
@@ -14203,7 +14143,7 @@
     "type": "skin",
     "description": "In addition to her research as a part of Blackwatch, Moira occasionally participated in clandestine operations, including the Venice Incident.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17A9": {
     "hero": "Moira",
@@ -14211,7 +14151,7 @@
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1822": {
     "hero": "Moira",
@@ -14219,7 +14159,7 @@
     "rarity": "rare",
     "type": "pose",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18DC": {
     "hero": "Moira",
@@ -14227,7 +14167,7 @@
     "rarity": "common",
     "type": "spray",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "193A": {
     "hero": "Moira",
@@ -14235,7 +14175,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "193B": {
     "hero": "Moira",
@@ -14243,7 +14183,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "193C": {
     "hero": "Moira",
@@ -14251,7 +14191,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1A9": {
     "hero": "Hanzo",
@@ -15053,32 +14993,28 @@
     "name": "Ramen",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "104C": {
     "hero": "Hanzo",
     "name": "Training",
     "rarity": "epic",
     "type": "emote",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C7": {
     "hero": "Hanzo",
     "name": "Unacceptable",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C8": {
     "hero": "Hanzo",
     "name": "Beauty in simplicity",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "128E": {
     "hero": "Hanzo",
@@ -15087,7 +15023,7 @@
     "type": "skin",
     "description": "Over the centuries, the Shimada clan grew to profit from a lucrative trade in arms and other illegal substances.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17B3": {
     "hero": "Hanzo",
@@ -15095,7 +15031,7 @@
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "190B": {
     "hero": "Hanzo",
@@ -15103,7 +15039,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1093": {
     "hero": "Hanzo",
@@ -15966,32 +15902,28 @@
     "name": "Handheld",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "104B": {
     "hero": "D.Va",
     "name": "Selfie",
     "rarity": "epic",
     "type": "highlight-intro",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C3": {
     "hero": "D.Va",
     "name": "Try and keep up",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10C4": {
     "hero": "D.Va",
     "name": "Not taking me seriously",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1915": {
     "hero": "D.Va",
@@ -15999,7 +15931,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "FFA": {
     "hero": "D.Va",
@@ -16666,7 +16598,7 @@
     "rarity": "rare",
     "type": "pose",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18DD": {
     "hero": "Brigitte",
@@ -16674,7 +16606,7 @@
     "rarity": "common",
     "type": "spray",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "193D": {
     "hero": "Brigitte",
@@ -16682,7 +16614,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "193E": {
     "hero": "Brigitte",
@@ -16690,7 +16622,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "193F": {
     "hero": "Brigitte",
@@ -16698,7 +16630,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1003": {
     "hero": "Orisa",
@@ -17464,16 +17396,14 @@
     "name": "Flower",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B7": {
     "hero": "Orisa",
     "name": "OR14-NS",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "F71": {
     "hero": "Orisa",
@@ -17481,24 +17411,21 @@
     "rarity": "legendary",
     "type": "skin",
     "description": "During the King's Row Uprising, Null Sector employed redesigned and upgraded OR14 Idina bots to secure the power station.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D3": {
     "hero": "Orisa",
     "name": "Error: division by 0",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D4": {
     "hero": "Orisa",
     "name": "Functionality still in beta",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "17AA": {
     "hero": "Orisa",
@@ -17506,7 +17433,7 @@
     "rarity": "rare",
     "type": "pose",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1909": {
     "hero": "Orisa",
@@ -17514,7 +17441,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "12A7": {
     "hero": "Orisa",
@@ -17522,7 +17449,7 @@
     "rarity": "epic",
     "type": "highlight-intro",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1092": {
     "hero": "Orisa",
@@ -18382,32 +18309,28 @@
     "name": "We can!",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1057": {
     "hero": "Zarya",
     "name": "This is strength",
     "rarity": "rare",
     "type": "pose",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10EB": {
     "hero": "Zarya",
     "name": "I was born in battle",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10EC": {
     "hero": "Zarya",
     "name": "Ready to give up?",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "126C": {
     "hero": "Zarya",
@@ -18415,7 +18338,7 @@
     "rarity": "epic",
     "type": "highlight-intro",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1916": {
     "hero": "Zarya",
@@ -18423,7 +18346,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "E82": {
     "hero": "Zarya",
@@ -19282,32 +19205,28 @@
     "name": "Building",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1059": {
     "hero": "Winston",
     "name": "Peanut Butter",
     "rarity": "rare",
     "type": "pose",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E9": {
     "hero": "Winston",
     "name": "Have you seen my glasses?",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10EA": {
     "hero": "Winston",
     "name": "I have the right stuff",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "142A": {
     "hero": "Winston",
@@ -19316,7 +19235,7 @@
     "type": "skin",
     "description": "The gorilla known as Specimen 28 showed rapid brain development from genetic therapy, surpassing that of the other subjects.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17B5": {
     "hero": "Winston",
@@ -19324,7 +19243,7 @@
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "191B": {
     "hero": "Winston",
@@ -19332,7 +19251,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "E81": {
     "hero": "Winston",
@@ -20195,32 +20114,28 @@
     "name": "Shell",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1060": {
     "hero": "Zenyatta",
     "name": "Perspective",
     "rarity": "epic",
     "type": "highlight-intro",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10ED": {
     "hero": "Zenyatta",
     "name": "Where you're headed",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10EE": {
     "hero": "Zenyatta",
     "name": "Path to enlightenment",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "190D": {
     "hero": "Zenyatta",
@@ -20228,7 +20143,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "10AA": {
     "hero": "Zenyatta",
@@ -21096,24 +21011,21 @@
     "name": "Brigitte",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10BA": {
     "hero": "Torbjörn",
     "name": "Chief Engineer",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "F62": {
     "hero": "Torbjörn",
     "name": "Ironclad",
     "rarity": "legendary",
     "type": "skin",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "103D": {
     "hero": "Torbjörn",
@@ -21121,32 +21033,28 @@
     "rarity": "legendary",
     "type": "skin",
     "description": "For many years, Torbjörn Lindholm served as Overwatch's chief engineer, designing many of the organization's iconic weapons and technologies.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "104A": {
     "hero": "Torbjörn",
     "name": "My baby",
     "rarity": "epic",
     "type": "highlight-intro",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E3": {
     "hero": "Torbjörn",
     "name": "Poor craftsman",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10E4": {
     "hero": "Torbjörn",
     "name": "Just start hammering",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1913": {
     "hero": "Torbjörn",
@@ -21154,7 +21062,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "E7F": {
     "hero": "Torbjörn",
@@ -22033,24 +21941,21 @@
     "name": "Commando",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D7": {
     "hero": "Reaper",
     "name": "Amateur hour",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D8": {
     "hero": "Reaper",
     "name": "Moving on",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1385": {
     "hero": "Reaper",
@@ -22059,7 +21964,7 @@
     "type": "skin",
     "description": "Before serving on the original Overwatch strike team, Gabriel Reyes was selected to be a member of the government's classified soldier enhancement program.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17B0": {
     "hero": "Reaper",
@@ -22067,7 +21972,7 @@
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1917": {
     "hero": "Reaper",
@@ -22075,7 +21980,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "E80": {
     "hero": "Reaper",
@@ -22915,32 +22820,28 @@
     "name": "Skates",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1056": {
     "hero": "Lúcio",
     "name": "Handstand",
     "rarity": "rare",
     "type": "pose",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10CB": {
     "hero": "Lúcio",
     "name": "Boop",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10CC": {
     "hero": "Lúcio",
     "name": "Learn to take it easy",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "15F4": {
     "hero": "Lúcio",
@@ -22948,7 +22849,7 @@
     "rarity": "legendary",
     "type": "skin",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17B1": {
     "hero": "Lúcio",
@@ -22956,7 +22857,7 @@
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "190F": {
     "hero": "Lúcio",
@@ -22964,7 +22865,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "FE7": {
     "hero": "Lúcio",
@@ -23851,24 +23752,21 @@
     "name": "Pajamas",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10CF": {
     "hero": "Mei",
     "name": "Science this",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10D0": {
     "hero": "Mei",
     "name": "Scientific explanation",
     "rarity": "common",
     "type": "voice-line",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "1383": {
     "hero": "Mei",
@@ -23877,7 +23775,7 @@
     "type": "skin",
     "description": "Due to a malfunction of Ecopoint: Antarctica's cryogenics facility, Mei was kept in hibernation for almost a decade and woke up to find a new, unfamiliar world.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17B2": {
     "hero": "Mei",
@@ -23885,7 +23783,7 @@
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1910": {
     "hero": "Mei",
@@ -23893,7 +23791,7 @@
     "rarity": "common",
     "type": "voice-line",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "F5F": {
     "hero": "Mei",
@@ -24672,8 +24570,7 @@
     "type": "spray",
     "availability": "achievement",
     "unlock-condition": "Complete Uprising on Hard difficulty.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10AF": {
     "name": "Nulltrooper",
@@ -24681,8 +24578,7 @@
     "type": "spray",
     "availability": "achievement",
     "unlock-condition": "Complete Uprising with each of the 4 heroes.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B0": {
     "name": "B73-NS",
@@ -24690,8 +24586,7 @@
     "type": "spray",
     "availability": "achievement",
     "unlock-condition": "Complete Uprising on Expert difficulty.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B1": {
     "name": "Slicer",
@@ -24699,8 +24594,7 @@
     "type": "spray",
     "availability": "achievement",
     "unlock-condition": "Deliver the payload with over 80%% health in Uprising on Hard difficulty.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B2": {
     "name": "Nullmari",
@@ -24708,8 +24602,7 @@
     "type": "spray",
     "availability": "achievement",
     "unlock-condition": "Complete Uprising (All Heroes) with 8 different heroes.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B3": {
     "name": "OR14-NS",
@@ -24717,16 +24610,14 @@
     "type": "spray",
     "availability": "achievement",
     "unlock-condition": "Complete Uprising on Legendary difficulty.",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10F2": {
     "name": "Uprising 2017",
     "rarity": "rare",
     "type": "player-icon",
     "availability": "unknown",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "17A7": {
     "name": "Archives 2018",
@@ -24734,7 +24625,7 @@
     "type": "player-icon",
     "availability": "unknown",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18DB": {
     "name": "Talon Trooper",
@@ -24743,7 +24634,7 @@
     "availability": "achievement",
     "unlock-condition": "Complete Retribution with each of the 4 heroes.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18DE": {
     "name": "Talon Enforcer",
@@ -24752,7 +24643,7 @@
     "availability": "achievement",
     "unlock-condition": "Complete Retribution (All Heroes) with 8 different heroes.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18DF": {
     "name": "Talon Sniper",
@@ -24761,7 +24652,7 @@
     "availability": "achievement",
     "unlock-condition": "Complete Retribution on Hard difficulty.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18E0": {
     "name": "Talon Assassin",
@@ -24770,7 +24661,7 @@
     "availability": "achievement",
     "unlock-condition": "Complete Retribution on Expert difficulty with no incapacitations.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18E1": {
     "name": "Talon Heavy Assault",
@@ -24779,7 +24670,7 @@
     "availability": "achievement",
     "unlock-condition": "Complete Retribution on Legendary difficulty.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18E2": {
     "name": "Droppachi",
@@ -24788,7 +24679,7 @@
     "availability": "achievement",
     "unlock-condition": "Complete Retribution on Expert difficulty.",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "113E": {
     "name": "Anniversary 2017",
@@ -26051,85 +25942,80 @@
     "name": "B73-NS",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B4": {
     "name": "Null Sector",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B5": {
     "name": "Drop Pod",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10B6": {
     "name": "Nullmari",
     "rarity": "rare",
     "type": "player-icon",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "10F1": {
     "name": "Null Sector",
     "rarity": "common",
     "type": "spray",
-    "group": "archives",
-    "year": 2017
+    "group": "archives"
   },
   "17A8": {
     "name": "Assassin",
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17AB": {
     "name": "Trooper",
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17AC": {
     "name": "Sniper",
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17AD": {
     "name": "Enforcer",
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17AE": {
     "name": "Heavy Assault",
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "17AF": {
     "name": "Maximilien",
     "rarity": "rare",
     "type": "player-icon",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "18EB": {
     "name": "Archives",
     "rarity": "common",
     "type": "spray",
     "group": "archives",
-    "year": 2018
+    "new": true
   },
   "1178": {
     "name": "Anniversary 2017",

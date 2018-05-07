@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Icon from './Icon.js'
 import ItemSettings from './ItemSettings.js'
-import currentEvent from './data/current-event.json'
 import items from './data/items.json'
 import './Item.sass'
 
@@ -46,7 +45,7 @@ function ItemName({ id, hideHero, hideEvent }) {
   const item = items[id]
 
   let newItem = null
-  if (item.group === currentEvent.event && item.year === currentEvent.year) {
+  if (item.new) {
     newItem = (
       <span className="new">New</span>
     )
