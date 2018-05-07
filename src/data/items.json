@@ -27,7 +27,6 @@
     "name": "Slipstream",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Before becoming an active agent of Overwatch, Tracer was a test pilot, until a mishap with the prototype Slipstream teleporting fighter.",
     "availability": "bonus",
     "group": "bonus",
     "unlock-condition": "Unlocked with purchase of Overwatch: Origins Edition or Overwatch: Game of the Year Edition"
@@ -867,7 +866,6 @@
     "name": "Cadet Oxton",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Tracer was put into active duty as an Overwatch agent for the first time during the King's Row uprising.",
     "group": "archives"
   },
   "10E5": {
@@ -1385,8 +1383,7 @@
     "hero": "Symmetra",
     "name": "Utopaea",
     "rarity": "epic",
-    "type": "skin",
-    "description": "Designed by its most talented Architechs, Utopaea is the jewel of the Vishkar Corporation's developments around the world."
+    "type": "skin"
   },
   "47F": {
     "hero": "Symmetra",
@@ -1404,15 +1401,13 @@
     "hero": "Symmetra",
     "name": "Vishkar",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "As one of the Vishkar Corporation's most talented architechs, Symmetra was dispatched to Rio de Janeiro to oversee their new development efforts."
+    "type": "skin"
   },
   "484": {
     "hero": "Symmetra",
     "name": "Architech",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Noticed at a young age for her potential in the area of hard-light engineering, Satya Vaswani was placed in the Vishkar Corporation's academy to become a future architech."
+    "type": "skin"
   },
   "18A": {
     "hero": "Symmetra",
@@ -1651,7 +1646,6 @@
     "name": "Dragon",
     "rarity": "legendary",
     "type": "skin",
-    "description": "As the tales tell, the Witch of the Wilds had many powerful allies, including the draconic summoner.",
     "group": "halloween-terror"
   },
   "12C4": {
@@ -2516,7 +2510,6 @@
     "name": "Junkenstein's Monster",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Armed with the secret of creating artificial life, Dr. Jamison Junkenstein birthed a monster.",
     "group": "halloween-terror"
   },
   "C4A": {
@@ -2766,7 +2759,6 @@
     "name": "Security Chief",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Following a sterling career in the Egyptian armed forces, Pharah joined Helix Security International as one of their chief officers.",
     "availability": "bonus",
     "group": "bonus",
     "unlock-condition": "Unlocked with purchase of Overwatch: Origins Edition or Overwatch: Game of the Year Edition"
@@ -3193,8 +3185,7 @@
     "hero": "Pharah",
     "name": "Anubis",
     "rarity": "epic",
-    "type": "skin",
-    "description": "Pharah was assigned to protect a secure Helix AI installation in Egypt at the Temple of Anubis. While the AI was briefly able to break containment, Pharah and her team were able to subdue it."
+    "type": "skin"
   },
   "8A0": {
     "hero": "Pharah",
@@ -4071,8 +4062,7 @@
     "hero": "Reinhardt",
     "name": "Bundeswehr",
     "rarity": "epic",
-    "type": "skin",
-    "description": "At a young age, Reinhardt Wilhelm enlisted in the German armed forces, seeking glory."
+    "type": "skin"
   },
   "444": {
     "hero": "Reinhardt",
@@ -4102,15 +4092,13 @@
     "hero": "Reinhardt",
     "name": "Balderich",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "During the Omnic Crisis, Balderich von Adler commanded the German Crusader unit until he was killed at the battle of Eichenwalde."
+    "type": "skin"
   },
   "A72": {
     "hero": "Reinhardt",
     "name": "Greifhardt",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "After the Battle of Eichenwalde, Balderich von Adler's armor remained undisturbed for many years."
+    "type": "skin"
   },
   "184": {
     "hero": "Reinhardt",
@@ -4254,8 +4242,7 @@
     "hero": "Reinhardt",
     "name": "Crusader",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "\"The Hero of Eichenwalde,\" Reinhardt joined the original Overwatch team in the place of his fallen commander, Balderich."
+    "type": "skin"
   },
   "15A2": {
     "hero": "Reinhardt",
@@ -4448,7 +4435,6 @@
     "name": "Lieutenant Wilhelm",
     "rarity": "epic",
     "type": "skin",
-    "description": "Lieutenant Reinhardt Wilhelm served with distinction in his time during Overwatch, notably leading the strike team that ended the King's Row uprising.",
     "group": "archives"
   },
   "10D9": {
@@ -4973,29 +4959,25 @@
     "hero": "Genji",
     "name": "Young Genji",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "The younger scion of the Shimada clan, Genji had little interest in carrying on the family's business, and spent his days on frivolous pursuits."
+    "type": "skin"
   },
   "498": {
     "hero": "Genji",
     "name": "Sparrow",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "In his youth, Genji's father, Sojiro, gave him the diminutive nickname, \"Sparrow.\""
+    "type": "skin"
   },
   "499": {
     "hero": "Genji",
     "name": "Bedouin",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "After leaving Overwatch, Genji wandered the world, trying to come to peace with his cyborg body."
+    "type": "skin"
   },
   "49A": {
     "hero": "Genji",
     "name": "Nomad",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "After leaving Overwatch, Genji wandered the world, trying to come to peace with his cyborg body."
+    "type": "skin"
   },
   "192": {
     "hero": "Genji",
@@ -5336,7 +5318,6 @@
     "name": "Blackwatch",
     "rarity": "legendary",
     "type": "skin",
-    "description": "After agreeing to aid the organization, Genji was upgraded extensively by Overwatch's cyberneticists.",
     "group": "archives"
   },
   "105A": {
@@ -5438,7 +5419,6 @@
     "name": "Strike Commander Morrison",
     "rarity": "legendary",
     "type": "skin",
-    "description": "After the Omnic Crisis, Jack Morrison was promoted to Strike Commander of Overwatch, leading the organization for decades until it was disbanded.",
     "availability": "bonus",
     "group": "bonus",
     "unlock-condition": "Unlocked with purchase of Overwatch: Origins Edition or Overwatch: Game of the Year Edition"
@@ -5889,15 +5869,13 @@
     "hero": "Soldier: 76",
     "name": "Commando: 76",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "At his first opportunity, a young Jack Morrison enlisted in the American armed forces to defend his country, serving with distinction during the Omnic Crisis."
+    "type": "skin"
   },
   "4D1": {
     "hero": "Soldier: 76",
     "name": "Night Ops: 76",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "At his first opportunity, a young Jack Morrison enlisted in the American armed forces to defend his country, serving with distinction during the Omnic Crisis."
+    "type": "skin"
   },
   "18E": {
     "hero": "Soldier: 76",
@@ -6321,7 +6299,6 @@
     "name": "Overgrown",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Damaged in one of the battles of the Omnic Crisis, this lone Bastion unit was reactivated in the Black Forest near Eichenwalde years later.",
     "availability": "bonus",
     "group": "bonus",
     "unlock-condition": "Unlocked with purchase of Overwatch: Origins Edition or Overwatch: Game of the Year Edition"
@@ -6764,8 +6741,7 @@
     "hero": "Bastion",
     "name": "Omnic Crisis",
     "rarity": "epic",
-    "type": "skin",
-    "description": "During the Omnic Crisis, Bastion units fought against humans in battles around the world."
+    "type": "skin"
   },
   "471": {
     "hero": "Bastion",
@@ -7013,7 +6989,6 @@
     "name": "R.I.P.",
     "rarity": "rare",
     "type": "pose",
-    "description": "Responsible for so many deaths during the Omnic Crisis, even today Bastion units are a symbol of fear.",
     "group": "halloween-terror"
   },
   "C69": {
@@ -7133,7 +7108,6 @@
     "name": "Null Sector",
     "rarity": "epic",
     "type": "skin",
-    "description": "Bastion units were reengineered and upgraded by Null Sector and deployed during the King's Row Uprising.",
     "group": "archives"
   },
   "10F4": {
@@ -7670,15 +7644,13 @@
     "hero": "Sombra",
     "name": "Los Muertos",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Orphaned after the Omnic Crisis, a young Sombra found a willing buyer for her hacking ability in Los Muertos."
+    "type": "skin"
   },
   "AF5": {
     "hero": "Sombra",
     "name": "Azúcar",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Orphaned after the Omnic Crisis, a young Sombra found a willing buyer for her hacking ability in Los Muertos."
+    "type": "skin"
   },
   "AF2": {
     "hero": "Sombra",
@@ -8052,7 +8024,6 @@
     "name": "Talon",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Sombra is only too happy to utilize the power and reach of Talon while pursuing her own goals.",
     "group": "archives",
     "new": true
   },
@@ -8778,7 +8749,6 @@
     "name": "Eidgenossin",
     "rarity": "epic",
     "type": "skin",
-    "description": "After finishing her education, including her MD and PhD in Switzerland, Angela Ziegler continued her research and served as head of surgery in a prominent hospital in her home country.",
     "group": "summer-games"
   },
   "1095": {
@@ -8821,7 +8791,6 @@
     "name": "Witch",
     "rarity": "legendary",
     "type": "skin",
-    "description": "The Witch of the Wilds is a mysterious figure who appears in the tale of Dr. Junkenstein and others, offering people the object of their desire, for a price.",
     "group": "halloween-terror"
   },
   "C40": {
@@ -8955,7 +8924,6 @@
     "name": "Combat Medic Ziegler",
     "rarity": "legendary",
     "type": "skin",
-    "description": "When called upon, Mercy would don her Valkyrie swift-response suit to participate in Overwatch missions.",
     "group": "archives"
   },
   "10D1": {
@@ -9460,15 +9428,13 @@
     "hero": "Ana",
     "name": "Merciful",
     "rarity": "epic",
-    "type": "skin",
-    "description": "Ana's biotic rifle uses a modified version of Mercy's healing technology, though the weapon was created against the doctor's wishes."
+    "type": "skin"
   },
   "AD8": {
     "hero": "Ana",
     "name": "Shrike",
     "rarity": "epic",
-    "type": "skin",
-    "description": "Recently, Ana has operated under the alias of \"Shrike\" and is wanted for espionage, assault, and theft in Egypt."
+    "type": "skin"
   },
   "ADF": {
     "hero": "Ana",
@@ -9486,15 +9452,13 @@
     "hero": "Ana",
     "name": "Captain Amari",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Captain Ana Amari was Strike Commander Morrison's second in command of Overwatch."
+    "type": "skin"
   },
   "ADE": {
     "hero": "Ana",
     "name": "Horus",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Ana's call sign was \"Horus\" when she served in the Egyptian military during the Omnic Crisis."
+    "type": "skin"
   },
   "A94": {
     "hero": "Ana",
@@ -10331,29 +10295,25 @@
     "hero": "Junkrat",
     "name": "Bleached",
     "rarity": "rare",
-    "type": "skin",
-    "description": "The destruction of the omnium in Australia and the formation of Junkertown made the Outback an even more dangerous place to live."
+    "type": "skin"
   },
   "4B4": {
     "hero": "Junkrat",
     "name": "Irradiated",
     "rarity": "rare",
-    "type": "skin",
-    "description": "The destruction of the omnium in Australia and the formation of Junkertown made the Outback an even more dangerous place to live."
+    "type": "skin"
   },
   "4B2": {
     "hero": "Junkrat",
     "name": "Rusted",
     "rarity": "rare",
-    "type": "skin",
-    "description": "The destruction of the omnium in Australia and the formation of Junkertown made the Outback an even more dangerous place to live."
+    "type": "skin"
   },
   "4B5": {
     "hero": "Junkrat",
     "name": "Drowned",
     "rarity": "rare",
-    "type": "skin",
-    "description": "The destruction of the omnium in Australia and the formation of Junkertown made the Outback an even more dangerous place to live."
+    "type": "skin"
   },
   "4B6": {
     "hero": "Junkrat",
@@ -10586,7 +10546,6 @@
     "name": "Cricket",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Junkrat gives new meaning to \"the Ashes.\"",
     "group": "summer-games"
   },
   "121B": {
@@ -10622,7 +10581,6 @@
     "name": "Dr. Junkenstein",
     "rarity": "legendary",
     "type": "skin",
-    "description": "As the tale goes, Dr. Junkenstein made a deal with the Witch of the Wilds in exchange for the secret to creating life. But his triumph was short lived as he was slain by four wanderers in Adlersbrunn.",
     "group": "halloween-terror"
   },
   "C41": {
@@ -11656,7 +11614,6 @@
     "name": "Blackwatch",
     "rarity": "legendary",
     "type": "skin",
-    "description": "A young Jesse McCree was recruited into Blackwatch after Gabriel Reyes saw his potential and gave him a choice: join Blackwatch, or rot in prison.",
     "group": "archives"
   },
   "1058": {
@@ -12198,22 +12155,19 @@
     "hero": "Widowmaker",
     "name": "Odile",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "For much of her life, Amélie Lacroix was better known as an accomplished ballet dancer in Paris."
+    "type": "skin"
   },
   "468": {
     "hero": "Widowmaker",
     "name": "Odette",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "For much of her life, Amélie Lacroix was better known as an accomplished ballet dancer in Paris."
+    "type": "skin"
   },
   "8A1": {
     "hero": "Widowmaker",
     "name": "Comtesse",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "The historical motto of the Guillard family motto was, \"Chasseurs toujours.\""
+    "type": "skin"
   },
   "8A2": {
     "hero": "Widowmaker",
@@ -13098,15 +13052,13 @@
     "hero": "Doomfist",
     "name": "Irin",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "After losing his arm in the aftermath of the Omnic Crisis, Doomfist turned to cybernetics to recover and become even stronger than before."
+    "type": "skin"
   },
   "117B": {
     "hero": "Doomfist",
     "name": "Caution",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "After losing his arm in the aftermath of the Omnic Crisis, Doomfist turned to cybernetics to recover and become even stronger than before."
+    "type": "skin"
   },
   "11BC": {
     "hero": "Doomfist",
@@ -13387,7 +13339,6 @@
     "name": "Talon",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Doomfist rose in power in Talon after killing his mentor, Akinjide Adeyemi, the Scourge of Numbani.",
     "group": "archives",
     "new": true
   },
@@ -13896,8 +13847,7 @@
     "hero": "Moira",
     "name": "Oasis",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Thanks to her brilliance and their shared desire to achieve scientific advancement at any cost, the founders of Oasis invited her to join them as their Minister of Genetics."
+    "type": "skin"
   },
   "12F1": {
     "hero": "Moira",
@@ -13909,8 +13859,7 @@
     "hero": "Moira",
     "name": "Minister",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Thanks to her brilliance and their shared desire to achieve scientific advancement at any cost, the founders of Oasis invited her to join them as their Minister of Genetics."
+    "type": "skin"
   },
   "138B": {
     "hero": "Moira",
@@ -14141,7 +14090,6 @@
     "name": "Blackwatch",
     "rarity": "legendary",
     "type": "skin",
-    "description": "In addition to her research as a part of Blackwatch, Moira occasionally participated in clandestine operations, including the Venice Incident.",
     "group": "archives",
     "new": true
   },
@@ -14650,15 +14598,13 @@
     "hero": "Hanzo",
     "name": "Young Hanzo",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Hanzo was the son of the former master of the Shimada clan. He had been groomed to take over leadership of the family as his father's successor."
+    "type": "skin"
   },
   "42D": {
     "hero": "Hanzo",
     "name": "Young Master",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Hanzo was the son of the former master of the Shimada clan. He had been groomed to take over leadership of the family as his father's successor."
+    "type": "skin"
   },
   "42E": {
     "hero": "Hanzo",
@@ -15021,7 +14967,6 @@
     "name": "Scion",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Over the centuries, the Shimada clan grew to profit from a lucrative trade in arms and other illegal substances.",
     "group": "archives",
     "new": true
   },
@@ -15552,15 +15497,13 @@
     "hero": "D.Va",
     "name": "Junker",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Mech battles are one of the most popular forms of entertainment in Junkertown."
+    "type": "skin"
   },
   "4E7": {
     "hero": "D.Va",
     "name": "Scavenger",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Mech battles are one of the most popular forms of entertainment in Junkertown."
+    "type": "skin"
   },
   "193": {
     "hero": "D.Va",
@@ -15768,7 +15711,6 @@
     "name": "Taegeukgi",
     "rarity": "epic",
     "type": "skin",
-    "description": "During her time as a professional gamer, D.Va proudly represented her country in tournaments around the world.",
     "group": "summer-games"
   },
   "1221": {
@@ -16438,15 +16380,13 @@
     "hero": "Brigitte",
     "name": "Engineer",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Before taking up arms, Brigitte planned to pursue a career as an engineer who specialized  in the creation of armor and other defensive systems."
+    "type": "skin"
   },
   "1733": {
     "hero": "Brigitte",
     "name": "Mechanic",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Before taking up arms, Brigitte planned to pursue a career as an engineer who specialized  in the creation of armor and other defensive systems."
+    "type": "skin"
   },
   "16E7": {
     "hero": "Brigitte",
@@ -17083,8 +17023,7 @@
     "hero": "Orisa",
     "name": "OR15",
     "rarity": "epic",
-    "type": "skin",
-    "description": "Originally built to protect Numbani, the OR15 defense bots were destroyed and decommissioned after a battle with Doomfist. A young Efi Oladele would purchase the parts of the bots to build Orisa."
+    "type": "skin"
   },
   "F73": {
     "hero": "Orisa",
@@ -17410,7 +17349,6 @@
     "name": "Null Sector",
     "rarity": "legendary",
     "type": "skin",
-    "description": "During the King's Row Uprising, Null Sector employed redesigned and upgraded OR14 Idina bots to secure the power station.",
     "group": "archives"
   },
   "10D3": {
@@ -17955,15 +17893,13 @@
     "hero": "Zarya",
     "name": "Siberian Front",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "After her retirement from competition, Zarya enlisted in the Russian defense forces and was deployed to the Krasnoyarsk front in Siberia."
+    "type": "skin"
   },
   "4C6": {
     "hero": "Zarya",
     "name": "Arctic",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "After her retirement from competition, Zarya enlisted in the Russian defense forces and was deployed to the Krasnoyarsk front in Siberia."
+    "type": "skin"
   },
   "18D": {
     "hero": "Zarya",
@@ -18153,7 +18089,6 @@
     "name": "Champion",
     "rarity": "legendary",
     "type": "skin",
-    "description": "A champion weightlifter in her home country, Zarya retired on the eve of the world championships to enlist in the Russian defense forces.",
     "group": "summer-games"
   },
   "B4B": {
@@ -18161,7 +18096,6 @@
     "name": "Weightlifter",
     "rarity": "legendary",
     "type": "skin",
-    "description": "A champion weightlifter in her home country, Zarya retired on the eve of the world championships to enlist in the Russian defense forces.",
     "group": "summer-games"
   },
   "1222": {
@@ -18850,8 +18784,7 @@
     "hero": "Winston",
     "name": "Horizon",
     "rarity": "epic",
-    "type": "skin",
-    "description": "Most of Winston's formative years were spent as a test subject in the Horizon Lunar Colony."
+    "type": "skin"
   },
   "45E": {
     "hero": "Winston",
@@ -19233,7 +19166,6 @@
     "name": "Specimen 28",
     "rarity": "legendary",
     "type": "skin",
-    "description": "The gorilla known as Specimen 28 showed rapid brain development from genetic therapy, surpassing that of the other subjects.",
     "group": "archives",
     "new": true
   },
@@ -20947,7 +20879,6 @@
     "name": "Santaclad",
     "rarity": "legendary",
     "type": "skin",
-    "description": "At the gentle urging of his wife, Ingrid, Torbjörn dresses up as Santa for the Lindholm holiday celebrations.",
     "group": "winter-wonderland"
   },
   "D06": {
@@ -21032,7 +20963,6 @@
     "name": "Chief Engineer Lindholm",
     "rarity": "legendary",
     "type": "skin",
-    "description": "For many years, Torbjörn Lindholm served as Overwatch's chief engineer, designing many of the organization's iconic weapons and technologies.",
     "group": "archives"
   },
   "104A": {
@@ -21127,7 +21057,6 @@
     "name": "Blackwatch Reyes",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Gabriel Reyes was the leader of the original Overwatch strike team during the Omnic Crisis, and later commanded Blackwatch, the organization's covert ops division.",
     "availability": "bonus",
     "group": "bonus",
     "unlock-condition": "Unlocked with purchase of Overwatch: Origins Edition or Overwatch: Game of the Year Edition"
@@ -21590,8 +21519,7 @@
     "hero": "Reaper",
     "name": "Nevermore",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Quoth the raven, \"Nevermore.\""
+    "type": "skin"
   },
   "408": {
     "hero": "Reaper",
@@ -21821,7 +21749,6 @@
     "name": "Pumpkin",
     "rarity": "legendary",
     "type": "skin",
-    "description": "In the tale of Dr. Junkenstein, the Reaper was a servant to the Witch of the Wilds, bound to serve her for some unknown reason.",
     "group": "halloween-terror"
   },
   "C33": {
@@ -21962,7 +21889,6 @@
     "name": "Soldier: 24",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Before serving on the original Overwatch strike team, Gabriel Reyes was selected to be a member of the government's classified soldier enhancement program.",
     "group": "archives",
     "new": true
   },
@@ -22462,15 +22388,13 @@
     "hero": "Lúcio",
     "name": "Synaesthesia",
     "rarity": "epic",
-    "type": "skin",
-    "description": "Lúcio's latest album, Synaesthesia Auditiva, was a global hit."
+    "type": "skin"
   },
   "4DA": {
     "hero": "Lúcio",
     "name": "Auditiva",
     "rarity": "epic",
-    "type": "skin",
-    "description": "Lúcio's latest album, Synaesthesia Auditiva, was a global hit."
+    "type": "skin"
   },
   "4DB": {
     "hero": "Lúcio",
@@ -22698,7 +22622,6 @@
     "name": "Seleção",
     "rarity": "legendary",
     "type": "skin",
-    "description": "When Lúcio was younger, in addition to his first love, hockey, he also found the time to play football with the other kids in Rio de Janeiro.",
     "group": "summer-games"
   },
   "B4D": {
@@ -22706,7 +22629,6 @@
     "name": "Striker",
     "rarity": "legendary",
     "type": "skin",
-    "description": "When Lúcio was younger, in addition to his first love, hockey, he also found the time to play football with the other kids in Rio de Janeiro.",
     "group": "summer-games"
   },
   "121C": {
@@ -22770,7 +22692,6 @@
     "name": "Andes",
     "rarity": "epic",
     "type": "skin",
-    "description": "When the weather gets cold, Lúcio heads to the Andes to hit the slopes.",
     "group": "winter-wonderland"
   },
   "D84": {
@@ -23378,15 +23299,13 @@
     "hero": "Mei",
     "name": "Yeti Hunter",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Mei travels to remote regions around the world, investigating ecopoints abandoned since Overwatch was shut down."
+    "type": "skin"
   },
   "9F0": {
     "hero": "Mei",
     "name": "Abominable",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "Mei travels to remote regions around the world, investigating ecopoints abandoned since Overwatch was shut down."
+    "type": "skin"
   },
   "194": {
     "hero": "Mei",
@@ -23530,8 +23449,7 @@
     "hero": "Mei",
     "name": "Ecopoint: Antarctica",
     "rarity": "legendary",
-    "type": "skin",
-    "description": "While she was stationed at Ecopoint: Antarctica, Mei performed research on climate anomalies in the region."
+    "type": "skin"
   },
   "159F": {
     "hero": "Mei",
@@ -23773,7 +23691,6 @@
     "name": "Pajamei",
     "rarity": "legendary",
     "type": "skin",
-    "description": "Due to a malfunction of Ecopoint: Antarctica's cryogenics facility, Mei was kept in hibernation for almost a decade and woke up to find a new, unfamiliar world.",
     "group": "archives",
     "new": true
   },

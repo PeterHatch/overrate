@@ -104,7 +104,7 @@ def process_items_for_hero(items_by_acquisition_type, hero_name)
         'name' => item['Name'],
         'rarity' => item['Rarity'].downcase,
         'type' => item['Type'].sub(/([a-z])([A-Z])/, '\1-\2').downcase,
-        'description' => item['Description'],
+        # 'description' => item['Description'],
         'availability' => ACQUISITION_TYPES[acquisition_type][:availability],
         'group' => ACQUISITION_TYPES[acquisition_type][:group],
       }
