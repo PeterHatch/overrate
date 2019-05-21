@@ -65,11 +65,10 @@ function ItemName({ id, hideHero, hideEvent }) {
   return (
     <React.Fragment>
       {
-        do { if (hero) {
+        hero &&
           <div className="hero">
             <Link to={`/hero/${hero}#${id}`}>{hero}</Link>
           </div>
-        }}
       }
       <div className={`name ${item.rarity}`}>
         {newItem}
