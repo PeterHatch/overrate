@@ -29,6 +29,20 @@ class ItemSettings extends React.Component {
     })
   }
 
+  // Save state to local storage; as state is two booleans and a rating that
+  // is 1-5 or false, convert to a single character to minimize space used.
+  saveStateToLocalStorage() {
+    let value = this.state.rating || 0
+    if (this.state.have) {
+      value += 6
+    }
+    if (this.state.favorite) {
+      value += 12
+    }
+    const charValue = String.fromCharCode(value + 0x41)   // 0x41 is 'A'
+    window.localStorage.setItem(this.props.id, charValue)
+  }
+
   loadStateFromLocalStorage() {
     const charValue = window.localStorage.getItem(this.props.id)
     if (charValue) {
@@ -48,18 +62,6 @@ class ItemSettings extends React.Component {
       return state
     }
     return {have: !!this.props.standardItem, favorite: false, rating: false}
-  }
-
-  saveStateToLocalStorage() {
-    let value = this.state.rating || 0
-    if (this.state.have) {
-      value += 6
-    }
-    if (this.state.favorite) {
-      value += 12
-    }
-    const charValue = String.fromCharCode(value + 0x41)
-    window.localStorage.setItem(this.props.id, charValue)
   }
 
   render() {
